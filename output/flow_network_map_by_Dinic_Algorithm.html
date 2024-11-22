@@ -1,0 +1,3343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb06dd354ac652b4c8003232cae22418 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb06dd354ac652b4c8003232cae22418" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb06dd354ac652b4c8003232cae22418 = L.map(
+                "map_eb06dd354ac652b4c8003232cae22418",
+                {
+                    center: [10.78999, 106.678101],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9572193c7104da3519138bc8b1166047 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9572193c7104da3519138bc8b1166047.addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var marker_e1042316d9289ad49b7c189b38eec464 = L.marker(
+                [10.79795, 106.68888],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_c116dfebdcb26ee8e5ae07fadf0b4d2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1042316d9289ad49b7c189b38eec464.setIcon(icon_c116dfebdcb26ee8e5ae07fadf0b4d2a);
+        
+    
+        var popup_a7b44d9ec2b5995f0489f438708cf699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22ac74fccf51cc5a14f0ba700540f06c = $(`<div id="html_22ac74fccf51cc5a14f0ba700540f06c" style="width: 100.0%; height: 100.0%;"><b>Ngân Hàng TMCP Sài Gòn</b><br>Ngân Hàng TMCP Sài Gòn, 182 Đường Phan Xích Long, Phường 2, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_a7b44d9ec2b5995f0489f438708cf699.setContent(html_22ac74fccf51cc5a14f0ba700540f06c);
+            
+        
+
+        marker_e1042316d9289ad49b7c189b38eec464.bindPopup(popup_a7b44d9ec2b5995f0489f438708cf699)
+        ;
+
+        
+    
+    
+            marker_e1042316d9289ad49b7c189b38eec464.bindTooltip(
+                `<div>
+                     Ngân Hàng TMCP Sài Gòn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04a2926909014c959e8774a686572a11 = L.marker(
+                [10.79242, 106.69333],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_94100d6310873d167eca988cce8341cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04a2926909014c959e8774a686572a11.setIcon(icon_94100d6310873d167eca988cce8341cb);
+        
+    
+        var popup_bc95ecceeb12a6c82fe4e63bfdf87767 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60e8d32743ad4d410e20693969a8f7eb = $(`<div id="html_60e8d32743ad4d410e20693969a8f7eb" style="width: 100.0%; height: 100.0%;"><b>Ngân Hàng Xuất Nhập Khẩu Việt Nam</b><br>Ngân Hàng Xuất Nhập Khẩu Việt Nam, 78 Đường Trần Quang Khải, Phường Tân Định, Quận 1, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_bc95ecceeb12a6c82fe4e63bfdf87767.setContent(html_60e8d32743ad4d410e20693969a8f7eb);
+            
+        
+
+        marker_04a2926909014c959e8774a686572a11.bindPopup(popup_bc95ecceeb12a6c82fe4e63bfdf87767)
+        ;
+
+        
+    
+    
+            marker_04a2926909014c959e8774a686572a11.bindTooltip(
+                `<div>
+                     Ngân Hàng Xuất Nhập Khẩu Việt Nam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c486389542f2d2edaf26127805107b2 = L.marker(
+                [10.79895, 106.68905],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_45ba96696d29520604e4c3b843d9e047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c486389542f2d2edaf26127805107b2.setIcon(icon_45ba96696d29520604e4c3b843d9e047);
+        
+    
+        var popup_2bcd2593e2835eb17ae224850379bfd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fe74ffa02535dbff8ff2801dced0ff2 = $(`<div id="html_5fe74ffa02535dbff8ff2801dced0ff2" style="width: 100.0%; height: 100.0%;"><b>KHÁNH HÒA NEST</b><br>KHÁNH HÒA NEST, 48 Đường Hoa Sứ, Phường 7, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_2bcd2593e2835eb17ae224850379bfd5.setContent(html_5fe74ffa02535dbff8ff2801dced0ff2);
+            
+        
+
+        marker_5c486389542f2d2edaf26127805107b2.bindPopup(popup_2bcd2593e2835eb17ae224850379bfd5)
+        ;
+
+        
+    
+    
+            marker_5c486389542f2d2edaf26127805107b2.bindTooltip(
+                `<div>
+                     KHÁNH HÒA NEST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d43db1ad581bbec6838ccebf5985ed6 = L.marker(
+                [10.79237, 106.69399],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_fd60222df4896df30c98f214c140305e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d43db1ad581bbec6838ccebf5985ed6.setIcon(icon_fd60222df4896df30c98f214c140305e);
+        
+    
+        var popup_a0f7b8a159fe5870b3553411f6cf8919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c72b478f23cfb5e8adbaad547edcea7 = $(`<div id="html_4c72b478f23cfb5e8adbaad547edcea7" style="width: 100.0%; height: 100.0%;"><b>1 Mart</b><br>1 Mart, 55 Đường Trần Quang Khải, Phường Tân Định, Quận 1, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_a0f7b8a159fe5870b3553411f6cf8919.setContent(html_4c72b478f23cfb5e8adbaad547edcea7);
+            
+        
+
+        marker_9d43db1ad581bbec6838ccebf5985ed6.bindPopup(popup_a0f7b8a159fe5870b3553411f6cf8919)
+        ;
+
+        
+    
+    
+            marker_9d43db1ad581bbec6838ccebf5985ed6.bindTooltip(
+                `<div>
+                     1 Mart
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e38357419d0555dc84f6a627e5288251 = L.marker(
+                [10.8037, 106.70028],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_4c1cdea359f42c716f8d1f57ea3447d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e38357419d0555dc84f6a627e5288251.setIcon(icon_4c1cdea359f42c716f8d1f57ea3447d1);
+        
+    
+        var popup_18659e105d68e4de99425e6ecea31312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c16628f7a37f3c181a78bf758b565521 = $(`<div id="html_c16628f7a37f3c181a78bf758b565521" style="width: 100.0%; height: 100.0%;"><b>Chuyển Phát Nhanh J&T Express</b><br>Chuyển Phát Nhanh J&T Express, 22 Đường Phan Bội Châu, Phường 14, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_18659e105d68e4de99425e6ecea31312.setContent(html_c16628f7a37f3c181a78bf758b565521);
+            
+        
+
+        marker_e38357419d0555dc84f6a627e5288251.bindPopup(popup_18659e105d68e4de99425e6ecea31312)
+        ;
+
+        
+    
+    
+            marker_e38357419d0555dc84f6a627e5288251.bindTooltip(
+                `<div>
+                     Chuyển Phát Nhanh J&T Express
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29bf3b738265ea6f35fe4837934b1416 = L.marker(
+                [10.80644, 106.69728],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_cbd34940440e32245817ecbfc7db8ad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29bf3b738265ea6f35fe4837934b1416.setIcon(icon_cbd34940440e32245817ecbfc7db8ad5);
+        
+    
+        var popup_14659f4d5a88730f6553a6a2b1dd30fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10d4cf7fdd54d82d453ae902f49b8630 = $(`<div id="html_10d4cf7fdd54d82d453ae902f49b8630" style="width: 100.0%; height: 100.0%;"><b>Công Ty TNHH Viễn Thông Nga Hùng</b><br>Công Ty TNHH Viễn Thông Nga Hùng, 2A Đường Phan Văn Trị, Phường 14, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_14659f4d5a88730f6553a6a2b1dd30fe.setContent(html_10d4cf7fdd54d82d453ae902f49b8630);
+            
+        
+
+        marker_29bf3b738265ea6f35fe4837934b1416.bindPopup(popup_14659f4d5a88730f6553a6a2b1dd30fe)
+        ;
+
+        
+    
+    
+            marker_29bf3b738265ea6f35fe4837934b1416.bindTooltip(
+                `<div>
+                     Công Ty TNHH Viễn Thông Nga Hùng
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b79ebb15ca3aa23c9308219df748736 = L.marker(
+                [10.79848, 106.71153],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_623c0be8200aec78865459e5401c648a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b79ebb15ca3aa23c9308219df748736.setIcon(icon_623c0be8200aec78865459e5401c648a);
+        
+    
+        var popup_72f8da35702e679e86e8234e5c4912e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff88097212eaae2fc59737ebee8de150 = $(`<div id="html_ff88097212eaae2fc59737ebee8de150" style="width: 100.0%; height: 100.0%;"><b>RCPC CN3</b><br>RCPC CN3, 20 Hẻm 220 Xô Viết Nghệ Tĩnh, Phường 21, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_72f8da35702e679e86e8234e5c4912e8.setContent(html_ff88097212eaae2fc59737ebee8de150);
+            
+        
+
+        marker_9b79ebb15ca3aa23c9308219df748736.bindPopup(popup_72f8da35702e679e86e8234e5c4912e8)
+        ;
+
+        
+    
+    
+            marker_9b79ebb15ca3aa23c9308219df748736.bindTooltip(
+                `<div>
+                     RCPC CN3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72bc36eb898a2bbdab9efea167845ab0 = L.marker(
+                [10.80929, 106.71328],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_36b7b3369b5a3cc65a7db186fe4ec098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72bc36eb898a2bbdab9efea167845ab0.setIcon(icon_36b7b3369b5a3cc65a7db186fe4ec098);
+        
+    
+        var popup_b0aa441d35995007dc9a941481f14923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27527282adffb507ea5b00c42cb5b009 = $(`<div id="html_27527282adffb507ea5b00c42cb5b009" style="width: 100.0%; height: 100.0%;"><b>Rạp Phim Lotte Cinema</b><br>Rạp Phim Lotte Cinema, 26 Đường Ung Văn Khiêm, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_b0aa441d35995007dc9a941481f14923.setContent(html_27527282adffb507ea5b00c42cb5b009);
+            
+        
+
+        marker_72bc36eb898a2bbdab9efea167845ab0.bindPopup(popup_b0aa441d35995007dc9a941481f14923)
+        ;
+
+        
+    
+    
+            marker_72bc36eb898a2bbdab9efea167845ab0.bindTooltip(
+                `<div>
+                     Rạp Phim Lotte Cinema
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9255e1d69d054282ced8b4c0eda6b9a5 = L.marker(
+                [10.80845, 106.70881],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_76162de8ba4dbb1b99f6e956ce445dc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9255e1d69d054282ced8b4c0eda6b9a5.setIcon(icon_76162de8ba4dbb1b99f6e956ce445dc8);
+        
+    
+        var popup_279620060358ce395455ae16e4276a68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0972be3a50b35c6488613f843f88a714 = $(`<div id="html_0972be3a50b35c6488613f843f88a714" style="width: 100.0%; height: 100.0%;"><b>Futi Concept</b><br>Futi Concept, 12 Đường Bùi Đình Túy, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_279620060358ce395455ae16e4276a68.setContent(html_0972be3a50b35c6488613f843f88a714);
+            
+        
+
+        marker_9255e1d69d054282ced8b4c0eda6b9a5.bindPopup(popup_279620060358ce395455ae16e4276a68)
+        ;
+
+        
+    
+    
+            marker_9255e1d69d054282ced8b4c0eda6b9a5.bindTooltip(
+                `<div>
+                     Futi Concept
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96d2a93ef70f8f3ebf84d3841bef42dc = L.marker(
+                [10.79827, 106.70524],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_56f79af2c0aba9fbaef6a69d600a1e06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96d2a93ef70f8f3ebf84d3841bef42dc.setIcon(icon_56f79af2c0aba9fbaef6a69d600a1e06);
+        
+    
+        var popup_98e359d1f82e6bc37442e792fca24046 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6910edbca5ff8539391949d30b468bf5 = $(`<div id="html_6910edbca5ff8539391949d30b468bf5" style="width: 100.0%; height: 100.0%;"><b>Tranh Đồng</b><br>Tranh Đồng, 202 Đường Điện Biên Phủ, Phường 17, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_98e359d1f82e6bc37442e792fca24046.setContent(html_6910edbca5ff8539391949d30b468bf5);
+            
+        
+
+        marker_96d2a93ef70f8f3ebf84d3841bef42dc.bindPopup(popup_98e359d1f82e6bc37442e792fca24046)
+        ;
+
+        
+    
+    
+            marker_96d2a93ef70f8f3ebf84d3841bef42dc.bindTooltip(
+                `<div>
+                     Tranh Đồng
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b855271174423f8af67ad483477ceeba = L.marker(
+                [10.80547, 106.71607],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_8589db63e3e28c215e4ef917ffc07e85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b855271174423f8af67ad483477ceeba.setIcon(icon_8589db63e3e28c215e4ef917ffc07e85);
+        
+    
+        var popup_750aa82c688e10f534f39e9fa8051356 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30c00a717fd176c6098a925cecef4292 = $(`<div id="html_30c00a717fd176c6098a925cecef4292" style="width: 100.0%; height: 100.0%;"><b>B. Corner</b><br>B. Corner, 156 Đường Nguyễn Gia Trí, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_750aa82c688e10f534f39e9fa8051356.setContent(html_30c00a717fd176c6098a925cecef4292);
+            
+        
+
+        marker_b855271174423f8af67ad483477ceeba.bindPopup(popup_750aa82c688e10f534f39e9fa8051356)
+        ;
+
+        
+    
+    
+            marker_b855271174423f8af67ad483477ceeba.bindTooltip(
+                `<div>
+                     B. Corner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_762bac20412d8e3dba3e38b4b5edb969 = L.marker(
+                [10.80676, 106.70933],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_e11814a01652f0da10fb3b29174cb85f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_762bac20412d8e3dba3e38b4b5edb969.setIcon(icon_e11814a01652f0da10fb3b29174cb85f);
+        
+    
+        var popup_ad76ac0347848850cb19e51989082388 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e28abb605954d5a122f5597ef43ad61 = $(`<div id="html_0e28abb605954d5a122f5597ef43ad61" style="width: 100.0%; height: 100.0%;"><b>Đồng Hồ Mắt Kính Thành Tín</b><br>Đồng Hồ Mắt Kính Thành Tín, 57 Đường Đinh Bộ Lĩnh, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_ad76ac0347848850cb19e51989082388.setContent(html_0e28abb605954d5a122f5597ef43ad61);
+            
+        
+
+        marker_762bac20412d8e3dba3e38b4b5edb969.bindPopup(popup_ad76ac0347848850cb19e51989082388)
+        ;
+
+        
+    
+    
+            marker_762bac20412d8e3dba3e38b4b5edb969.bindTooltip(
+                `<div>
+                     Đồng Hồ Mắt Kính Thành Tín
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9560d4d407250b297e6b989aae4b8933 = L.marker(
+                [10.80544, 106.71161],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_178d4abdb1fa434cab06da95972eeb6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9560d4d407250b297e6b989aae4b8933.setIcon(icon_178d4abdb1fa434cab06da95972eeb6e);
+        
+    
+        var popup_811026f7d69d559ac687c6c1154b685a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e95bd83eca083030be8723ad9d1d176e = $(`<div id="html_e95bd83eca083030be8723ad9d1d176e" style="width: 100.0%; height: 100.0%;"><b>Giày Phương Trang</b><br>Giày Phương Trang, 408C Đường Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_811026f7d69d559ac687c6c1154b685a.setContent(html_e95bd83eca083030be8723ad9d1d176e);
+            
+        
+
+        marker_9560d4d407250b297e6b989aae4b8933.bindPopup(popup_811026f7d69d559ac687c6c1154b685a)
+        ;
+
+        
+    
+    
+            marker_9560d4d407250b297e6b989aae4b8933.bindTooltip(
+                `<div>
+                     Giày Phương Trang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22e0929f60a564c637c002eed3f2ca41 = L.marker(
+                [10.81477, 106.71278],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_27723c73c208970a416a5a100e604f69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22e0929f60a564c637c002eed3f2ca41.setIcon(icon_27723c73c208970a416a5a100e604f69);
+        
+    
+        var popup_83235c7979f0c5fbfcf7d503b24ea648 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b418a8cb6a6e54df0857dd6e767e2586 = $(`<div id="html_b418a8cb6a6e54df0857dd6e767e2586" style="width: 100.0%; height: 100.0%;"><b>Áo Thun Xanh</b><br>Áo Thun Xanh, 153 Quốc Lộ 13, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_83235c7979f0c5fbfcf7d503b24ea648.setContent(html_b418a8cb6a6e54df0857dd6e767e2586);
+            
+        
+
+        marker_22e0929f60a564c637c002eed3f2ca41.bindPopup(popup_83235c7979f0c5fbfcf7d503b24ea648)
+        ;
+
+        
+    
+    
+            marker_22e0929f60a564c637c002eed3f2ca41.bindTooltip(
+                `<div>
+                     Áo Thun Xanh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6c423e9ee33eec57911c003453b718a = L.marker(
+                [10.8122, 106.70677],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_e08b46c2ffabcfd34a2c3e961f219d86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6c423e9ee33eec57911c003453b718a.setIcon(icon_e08b46c2ffabcfd34a2c3e961f219d86);
+        
+    
+        var popup_9284847f155a9615f2e1dede148fdcc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93020e30c115f21632661496ca63aad0 = $(`<div id="html_93020e30c115f21632661496ca63aad0" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng Văn Phòng Phẩm Tuấn Trang</b><br>Cửa Hàng Văn Phòng Phẩm Tuấn Trang, 36 Đường Số 8, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_9284847f155a9615f2e1dede148fdcc4.setContent(html_93020e30c115f21632661496ca63aad0);
+            
+        
+
+        marker_b6c423e9ee33eec57911c003453b718a.bindPopup(popup_9284847f155a9615f2e1dede148fdcc4)
+        ;
+
+        
+    
+    
+            marker_b6c423e9ee33eec57911c003453b718a.bindTooltip(
+                `<div>
+                     Cửa Hàng Văn Phòng Phẩm Tuấn Trang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38713089bcb1fdacd077474517629dca = L.marker(
+                [10.81616, 106.70723],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_cfc32090b781a2ba3520106bb44e6bb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38713089bcb1fdacd077474517629dca.setIcon(icon_cfc32090b781a2ba3520106bb44e6bb9);
+        
+    
+        var popup_bed3ed1d54749543dd4ea7f0639769b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4bc1abdb6746013dc51be748ee0ae18 = $(`<div id="html_b4bc1abdb6746013dc51be748ee0ae18" style="width: 100.0%; height: 100.0%;"><b>Vincom Plaza</b><br>Vincom Plaza, 188 Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_bed3ed1d54749543dd4ea7f0639769b5.setContent(html_b4bc1abdb6746013dc51be748ee0ae18);
+            
+        
+
+        marker_38713089bcb1fdacd077474517629dca.bindPopup(popup_bed3ed1d54749543dd4ea7f0639769b5)
+        ;
+
+        
+    
+    
+            marker_38713089bcb1fdacd077474517629dca.bindTooltip(
+                `<div>
+                     Vincom Plaza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14cab8c677a50c1cc585bf73b9d8b193 = L.marker(
+                [10.81084, 106.7134],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_9e2b93d4099c3528854156bd4013f53b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14cab8c677a50c1cc585bf73b9d8b193.setIcon(icon_9e2b93d4099c3528854156bd4013f53b);
+        
+    
+        var popup_e52be9db1ba646626d235ce908083cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d8b755f320a6508c0cc28d0f8c2b319 = $(`<div id="html_5d8b755f320a6508c0cc28d0f8c2b319" style="width: 100.0%; height: 100.0%;"><b>Circle K</b><br>Circle K, 609 Đường Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_e52be9db1ba646626d235ce908083cd9.setContent(html_5d8b755f320a6508c0cc28d0f8c2b319);
+            
+        
+
+        marker_14cab8c677a50c1cc585bf73b9d8b193.bindPopup(popup_e52be9db1ba646626d235ce908083cd9)
+        ;
+
+        
+    
+    
+            marker_14cab8c677a50c1cc585bf73b9d8b193.bindTooltip(
+                `<div>
+                     Circle K
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_429fa02b5df215bc2792f862b19abbb3 = L.marker(
+                [10.80856, 106.71004],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_0a82c2ee1febf784673764d5d0b6fa14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_429fa02b5df215bc2792f862b19abbb3.setIcon(icon_0a82c2ee1febf784673764d5d0b6fa14);
+        
+    
+        var popup_b0b8aaaf3fd37d3c13cf91ff240d6745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b03a7286ab69e714fe69af86c8da578a = $(`<div id="html_b03a7286ab69e714fe69af86c8da578a" style="width: 100.0%; height: 100.0%;"><b>Uni Fruit</b><br>Uni Fruit, 549 Đường Xô Viết Nghệ Tĩnh, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_b0b8aaaf3fd37d3c13cf91ff240d6745.setContent(html_b03a7286ab69e714fe69af86c8da578a);
+            
+        
+
+        marker_429fa02b5df215bc2792f862b19abbb3.bindPopup(popup_b0b8aaaf3fd37d3c13cf91ff240d6745)
+        ;
+
+        
+    
+    
+            marker_429fa02b5df215bc2792f862b19abbb3.bindTooltip(
+                `<div>
+                     Uni Fruit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e1d80b0a22b65963b79ea7fe0becbc0 = L.marker(
+                [10.81286, 106.71562],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_518671213357bb6251e310f9e4567ca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e1d80b0a22b65963b79ea7fe0becbc0.setIcon(icon_518671213357bb6251e310f9e4567ca1);
+        
+    
+        var popup_d0be42ee4cd90affa9df9e327a7bfad6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06cca0f32faef55fbdf083d092b360bc = $(`<div id="html_06cca0f32faef55fbdf083d092b360bc" style="width: 100.0%; height: 100.0%;"><b>The Brothers Warehouse</b><br>The Brothers Warehouse, 719 Hẻm 721 Đường Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_d0be42ee4cd90affa9df9e327a7bfad6.setContent(html_06cca0f32faef55fbdf083d092b360bc);
+            
+        
+
+        marker_4e1d80b0a22b65963b79ea7fe0becbc0.bindPopup(popup_d0be42ee4cd90affa9df9e327a7bfad6)
+        ;
+
+        
+    
+    
+            marker_4e1d80b0a22b65963b79ea7fe0becbc0.bindTooltip(
+                `<div>
+                     The Brothers Warehouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3999dd591c10962154702df63e90c3a = L.marker(
+                [10.80827, 106.71495],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_c074e3d6ce1eaa59e18ca1fd1ae1e757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3999dd591c10962154702df63e90c3a.setIcon(icon_c074e3d6ce1eaa59e18ca1fd1ae1e757);
+        
+    
+        var popup_6d908928cfb8f7ebef009eba514bd624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e17db5a3320a86172b471f8c3548df = $(`<div id="html_26e17db5a3320a86172b471f8c3548df" style="width: 100.0%; height: 100.0%;"><b>Bia Tuyet Q9</b><br>Bia Tuyet Q9, 55 Đường Ung Văn Khiêm, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_6d908928cfb8f7ebef009eba514bd624.setContent(html_26e17db5a3320a86172b471f8c3548df);
+            
+        
+
+        marker_a3999dd591c10962154702df63e90c3a.bindPopup(popup_6d908928cfb8f7ebef009eba514bd624)
+        ;
+
+        
+    
+    
+            marker_a3999dd591c10962154702df63e90c3a.bindTooltip(
+                `<div>
+                     Bia Tuyet Q9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da9d083b81fcaa108a2f027fdadb6ae6 = L.marker(
+                [10.81887, 106.69917],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_7a89fa8e32253496cda3c6a5dd494f56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da9d083b81fcaa108a2f027fdadb6ae6.setIcon(icon_7a89fa8e32253496cda3c6a5dd494f56);
+        
+    
+        var popup_d7eab9f3ee325161b14fbd0d8e1a8028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1300e055fe934d9c5c46b7bc55170f8d = $(`<div id="html_1300e055fe934d9c5c46b7bc55170f8d" style="width: 100.0%; height: 100.0%;"><b>Kim's Boutique</b><br>Kim's Boutique, 287 Đường Nơ Trang Long, Phường 13, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_d7eab9f3ee325161b14fbd0d8e1a8028.setContent(html_1300e055fe934d9c5c46b7bc55170f8d);
+            
+        
+
+        marker_da9d083b81fcaa108a2f027fdadb6ae6.bindPopup(popup_d7eab9f3ee325161b14fbd0d8e1a8028)
+        ;
+
+        
+    
+    
+            marker_da9d083b81fcaa108a2f027fdadb6ae6.bindTooltip(
+                `<div>
+                     Kim's Boutique
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30329bb76635f4b87080909434519f21 = L.marker(
+                [10.81762, 106.69795],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_61d70eb6230e6c894711f6b1a8b0c980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30329bb76635f4b87080909434519f21.setIcon(icon_61d70eb6230e6c894711f6b1a8b0c980);
+        
+    
+        var popup_89db02a61ff44b2d1e48a9ad75792878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0f26fd574115b6c441e4e2de3c92b1b = $(`<div id="html_f0f26fd574115b6c441e4e2de3c92b1b" style="width: 100.0%; height: 100.0%;"><b>Nhà May Phượng</b><br>Nhà May Phượng, 239 Đường Nơ Trang Long, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_89db02a61ff44b2d1e48a9ad75792878.setContent(html_f0f26fd574115b6c441e4e2de3c92b1b);
+            
+        
+
+        marker_30329bb76635f4b87080909434519f21.bindPopup(popup_89db02a61ff44b2d1e48a9ad75792878)
+        ;
+
+        
+    
+    
+            marker_30329bb76635f4b87080909434519f21.bindTooltip(
+                `<div>
+                     Nhà May Phượng
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6ff3ad59d68ec90c103a5685475f796 = L.marker(
+                [10.81515, 106.70772],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_f8cd11c352459cd3cd6dcd2549805519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6ff3ad59d68ec90c103a5685475f796.setIcon(icon_f8cd11c352459cd3cd6dcd2549805519);
+        
+    
+        var popup_7df9765946ac293ff0cc19ddfca1b68e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baca9227307ee34fd6a5df7cf570fb93 = $(`<div id="html_baca9227307ee34fd6a5df7cf570fb93" style="width: 100.0%; height: 100.0%;"><b>Family Mart</b><br>Family Mart, 204 Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_7df9765946ac293ff0cc19ddfca1b68e.setContent(html_baca9227307ee34fd6a5df7cf570fb93);
+            
+        
+
+        marker_b6ff3ad59d68ec90c103a5685475f796.bindPopup(popup_7df9765946ac293ff0cc19ddfca1b68e)
+        ;
+
+        
+    
+    
+            marker_b6ff3ad59d68ec90c103a5685475f796.bindTooltip(
+                `<div>
+                     Family Mart
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51a87826170af478de14ec38c2b6c3de = L.marker(
+                [10.81099, 106.70576],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_66675aa6092926f78a895572e04136cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51a87826170af478de14ec38c2b6c3de.setIcon(icon_66675aa6092926f78a895572e04136cb);
+        
+    
+        var popup_a3db1a0f967903de5d3211b93e824db4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33bdf402dfbfd5d57edaf9adfa1f7c9a = $(`<div id="html_33bdf402dfbfd5d57edaf9adfa1f7c9a" style="width: 100.0%; height: 100.0%;"><b>Bưu Cục 247EXPRESS</b><br>Bưu Cục 247EXPRESS, 9 Đường Chu Văn An, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_a3db1a0f967903de5d3211b93e824db4.setContent(html_33bdf402dfbfd5d57edaf9adfa1f7c9a);
+            
+        
+
+        marker_51a87826170af478de14ec38c2b6c3de.bindPopup(popup_a3db1a0f967903de5d3211b93e824db4)
+        ;
+
+        
+    
+    
+            marker_51a87826170af478de14ec38c2b6c3de.bindTooltip(
+                `<div>
+                     Bưu Cục 247EXPRESS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb2591734ffaf1957e6e1f3bd7532e65 = L.marker(
+                [10.81159, 106.69585],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_a2e64a34906460034adfea95a5e24df0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb2591734ffaf1957e6e1f3bd7532e65.setIcon(icon_a2e64a34906460034adfea95a5e24df0);
+        
+    
+        var popup_67877b22b5a5e463db0f94161bc58717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_277e68811165880214aed092969fc09e = $(`<div id="html_277e68811165880214aed092969fc09e" style="width: 100.0%; height: 100.0%;"><b>Bưu Điện Nơ Trang Long</b><br>Bưu Điện Nơ Trang Long, 170G Đường Nơ Trang Long, Phường 12, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_67877b22b5a5e463db0f94161bc58717.setContent(html_277e68811165880214aed092969fc09e);
+            
+        
+
+        marker_cb2591734ffaf1957e6e1f3bd7532e65.bindPopup(popup_67877b22b5a5e463db0f94161bc58717)
+        ;
+
+        
+    
+    
+            marker_cb2591734ffaf1957e6e1f3bd7532e65.bindTooltip(
+                `<div>
+                     Bưu Điện Nơ Trang Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7874e0a4b27909e473fd39ed3a4b7c32 = L.marker(
+                [10.81439, 106.71007],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_8eb3a4902053362459415f344b0eb954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7874e0a4b27909e473fd39ed3a4b7c32.setIcon(icon_8eb3a4902053362459415f344b0eb954);
+        
+    
+        var popup_dc0691dac7a1b1e1d147ab34faecb84d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdcff70dcfa79a49dc3116ae53168387 = $(`<div id="html_bdcff70dcfa79a49dc3116ae53168387" style="width: 100.0%; height: 100.0%;"><b>Công Ty CP DV Chuyển Phát Nhanh Phương Trang Futa</b><br>Công Ty CP DV Chuyển Phát Nhanh Phương Trang Futa, 347 Đường Đinh Bộ Lĩnh, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_dc0691dac7a1b1e1d147ab34faecb84d.setContent(html_bdcff70dcfa79a49dc3116ae53168387);
+            
+        
+
+        marker_7874e0a4b27909e473fd39ed3a4b7c32.bindPopup(popup_dc0691dac7a1b1e1d147ab34faecb84d)
+        ;
+
+        
+    
+    
+            marker_7874e0a4b27909e473fd39ed3a4b7c32.bindTooltip(
+                `<div>
+                     Công Ty CP DV Chuyển Phát Nhanh Phương Trang Futa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a31d3efed11fc78e6c16539d58b73f6e = L.marker(
+                [10.81251, 106.69534],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_bd85568fec0533173c73d2d622e69d26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a31d3efed11fc78e6c16539d58b73f6e.setIcon(icon_bd85568fec0533173c73d2d622e69d26);
+        
+    
+        var popup_b7c8b87cf54ed768b4c92e6f918c94cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_719bf599fb1200bca6108f96ae3676c2 = $(`<div id="html_719bf599fb1200bca6108f96ae3676c2" style="width: 100.0%; height: 100.0%;"><b>Gift Shop</b><br>Gift Shop, 186B Đường Phan Văn Trị, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_b7c8b87cf54ed768b4c92e6f918c94cb.setContent(html_719bf599fb1200bca6108f96ae3676c2);
+            
+        
+
+        marker_a31d3efed11fc78e6c16539d58b73f6e.bindPopup(popup_b7c8b87cf54ed768b4c92e6f918c94cb)
+        ;
+
+        
+    
+    
+            marker_a31d3efed11fc78e6c16539d58b73f6e.bindTooltip(
+                `<div>
+                     Gift Shop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93f03ce0d66692dc5c291fd304906aed = L.marker(
+                [10.80561, 106.69643],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_749c6de925427b42691e3364de25b967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93f03ce0d66692dc5c291fd304906aed.setIcon(icon_749c6de925427b42691e3364de25b967);
+        
+    
+        var popup_bea99bb559e37d76d34a7484c8844cbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c494c04562bbf2ee49312b8761e7c006 = $(`<div id="html_c494c04562bbf2ee49312b8761e7c006" style="width: 100.0%; height: 100.0%;"><b>31A Nguyễn Huy Lượng, Phường 14, Quận Bình Thạnh.</b><br>31A Nguyễn Huy Lượng, Phường 14, Quận Bình Thạnh., 31A Đường Nguyễn Huy Lượng, Phường 14, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_bea99bb559e37d76d34a7484c8844cbe.setContent(html_c494c04562bbf2ee49312b8761e7c006);
+            
+        
+
+        marker_93f03ce0d66692dc5c291fd304906aed.bindPopup(popup_bea99bb559e37d76d34a7484c8844cbe)
+        ;
+
+        
+    
+    
+            marker_93f03ce0d66692dc5c291fd304906aed.bindTooltip(
+                `<div>
+                     31A Nguyễn Huy Lượng, Phường 14, Quận Bình Thạnh.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bf44bc9c432a5d8ca411d8138c0b208 = L.marker(
+                [10.80635, 106.69729],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_09bf79dd459237ad6b267a036b883661 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7bf44bc9c432a5d8ca411d8138c0b208.setIcon(icon_09bf79dd459237ad6b267a036b883661);
+        
+    
+        var popup_f776a18baf73cee15801a37f2efcbf1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7557eed91544252da55f2307bf888ece = $(`<div id="html_7557eed91544252da55f2307bf888ece" style="width: 100.0%; height: 100.0%;"><b>Clb Bida Top</b><br>Clb Bida Top, 4 Đường Phan Văn Trị, Phường 14, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_f776a18baf73cee15801a37f2efcbf1c.setContent(html_7557eed91544252da55f2307bf888ece);
+            
+        
+
+        marker_7bf44bc9c432a5d8ca411d8138c0b208.bindPopup(popup_f776a18baf73cee15801a37f2efcbf1c)
+        ;
+
+        
+    
+    
+            marker_7bf44bc9c432a5d8ca411d8138c0b208.bindTooltip(
+                `<div>
+                     Clb Bida Top
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb437b990aa505b8ac5c33e992945b17 = L.marker(
+                [10.81447, 106.69155],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_a9df66de1454238ca428793eeb5a7216 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb437b990aa505b8ac5c33e992945b17.setIcon(icon_a9df66de1454238ca428793eeb5a7216);
+        
+    
+        var popup_680b986d376676b16587aa20bb3e562e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a90ef0a60fe2d80926390aa92c35a37 = $(`<div id="html_3a90ef0a60fe2d80926390aa92c35a37" style="width: 100.0%; height: 100.0%;"><b>Nước Mía Giải Khát</b><br>Nước Mía Giải Khát, 207/96 Hẻm 207 Nguyễn Văn Đậu, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_680b986d376676b16587aa20bb3e562e.setContent(html_3a90ef0a60fe2d80926390aa92c35a37);
+            
+        
+
+        marker_fb437b990aa505b8ac5c33e992945b17.bindPopup(popup_680b986d376676b16587aa20bb3e562e)
+        ;
+
+        
+    
+    
+            marker_fb437b990aa505b8ac5c33e992945b17.bindTooltip(
+                `<div>
+                     Nước Mía Giải Khát
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_633199ffccd03eeff343cbed3258c8c4 = L.marker(
+                [10.80628, 106.69017],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_8672d4864c70eefbc3e2bd1a99eb3701 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_633199ffccd03eeff343cbed3258c8c4.setIcon(icon_8672d4864c70eefbc3e2bd1a99eb3701);
+        
+    
+        var popup_94a3fa7c5fb61e3cf5356f91765c958c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f889d4adf1dbf5251d70967615a91f3 = $(`<div id="html_6f889d4adf1dbf5251d70967615a91f3" style="width: 100.0%; height: 100.0%;"><b>Vitamin Bar II</b><br>Vitamin Bar II, 71 Đường Hoàng Hoa Thám, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_94a3fa7c5fb61e3cf5356f91765c958c.setContent(html_6f889d4adf1dbf5251d70967615a91f3);
+            
+        
+
+        marker_633199ffccd03eeff343cbed3258c8c4.bindPopup(popup_94a3fa7c5fb61e3cf5356f91765c958c)
+        ;
+
+        
+    
+    
+            marker_633199ffccd03eeff343cbed3258c8c4.bindTooltip(
+                `<div>
+                     Vitamin Bar II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_782a78a2cd3230ad2cb8cc7ca1116fcd = L.marker(
+                [10.8151, 106.69791],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_a2366adcac6dd787a8d9a0d990167980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_782a78a2cd3230ad2cb8cc7ca1116fcd.setIcon(icon_a2366adcac6dd787a8d9a0d990167980);
+        
+    
+        var popup_50e6a868a431d5d0f22a280b9c2b8a11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73421f1bfbeb9403b1d7ffc5768b7593 = $(`<div id="html_73421f1bfbeb9403b1d7ffc5768b7593" style="width: 100.0%; height: 100.0%;"><b>Cơm Trưa</b><br>Cơm Trưa, 215 Đường Nơ Trang Long, Phường 12, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_50e6a868a431d5d0f22a280b9c2b8a11.setContent(html_73421f1bfbeb9403b1d7ffc5768b7593);
+            
+        
+
+        marker_782a78a2cd3230ad2cb8cc7ca1116fcd.bindPopup(popup_50e6a868a431d5d0f22a280b9c2b8a11)
+        ;
+
+        
+    
+    
+            marker_782a78a2cd3230ad2cb8cc7ca1116fcd.bindTooltip(
+                `<div>
+                     Cơm Trưa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84c041c0e93b88fdc00224958d91376e = L.marker(
+                [10.81155, 106.69089],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_734178a3249612f5a45a46646180939c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84c041c0e93b88fdc00224958d91376e.setIcon(icon_734178a3249612f5a45a46646180939c);
+        
+    
+        var popup_5a0130879fdbdfbb65bef985a0554687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1966a59189a65b943e19b542d641bb96 = $(`<div id="html_1966a59189a65b943e19b542d641bb96" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng Thanh Trúc</b><br>Cửa Hàng Thanh Trúc, 416 Đường Lê Quang Định, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_5a0130879fdbdfbb65bef985a0554687.setContent(html_1966a59189a65b943e19b542d641bb96);
+            
+        
+
+        marker_84c041c0e93b88fdc00224958d91376e.bindPopup(popup_5a0130879fdbdfbb65bef985a0554687)
+        ;
+
+        
+    
+    
+            marker_84c041c0e93b88fdc00224958d91376e.bindTooltip(
+                `<div>
+                     Cửa Hàng Thanh Trúc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52e3a5727ccf6a024c7415a27582e262 = L.marker(
+                [10.81122, 106.69085],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_28c1ea6ac173873d4dda4c877551c95e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52e3a5727ccf6a024c7415a27582e262.setIcon(icon_28c1ea6ac173873d4dda4c877551c95e);
+        
+    
+        var popup_50988ad2a6834d8d9b15efff9ccf4ccb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d8aeb92f2b42a43df1509087ceb90b8 = $(`<div id="html_1d8aeb92f2b42a43df1509087ceb90b8" style="width: 100.0%; height: 100.0%;"><b>Mini Bao</b><br>Mini Bao, 317 Đường Lê Quang Định, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_50988ad2a6834d8d9b15efff9ccf4ccb.setContent(html_1d8aeb92f2b42a43df1509087ceb90b8);
+            
+        
+
+        marker_52e3a5727ccf6a024c7415a27582e262.bindPopup(popup_50988ad2a6834d8d9b15efff9ccf4ccb)
+        ;
+
+        
+    
+    
+            marker_52e3a5727ccf6a024c7415a27582e262.bindTooltip(
+                `<div>
+                     Mini Bao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a12eaae545ee3c693245741d135292eb = L.marker(
+                [10.81327, 106.69514],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_48e7cf3ec5e6f443da041d1423bef2e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a12eaae545ee3c693245741d135292eb.setIcon(icon_48e7cf3ec5e6f443da041d1423bef2e0);
+        
+    
+        var popup_7e23ed839d3ea42fc6fe6d82f8ce8839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_290370f23d8fb4bd39192aadcbada4fb = $(`<div id="html_290370f23d8fb4bd39192aadcbada4fb" style="width: 100.0%; height: 100.0%;"><b>Ngân Hàng Đầu Tư Và Phát Triển</b><br>Ngân Hàng Đầu Tư Và Phát Triển, 235 Đường Phan Văn Trị, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_7e23ed839d3ea42fc6fe6d82f8ce8839.setContent(html_290370f23d8fb4bd39192aadcbada4fb);
+            
+        
+
+        marker_a12eaae545ee3c693245741d135292eb.bindPopup(popup_7e23ed839d3ea42fc6fe6d82f8ce8839)
+        ;
+
+        
+    
+    
+            marker_a12eaae545ee3c693245741d135292eb.bindTooltip(
+                `<div>
+                     Ngân Hàng Đầu Tư Và Phát Triển
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_680d09096770105480590af4284d5c44 = L.marker(
+                [10.80859, 106.69519],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_f99f920bd37d53ecdf762e236120220c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_680d09096770105480590af4284d5c44.setIcon(icon_f99f920bd37d53ecdf762e236120220c);
+        
+    
+        var popup_99cfb33ed5f443f0906b1a929af4e4eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a4ea589955ab15bbef2cdac9f6cb5be = $(`<div id="html_2a4ea589955ab15bbef2cdac9f6cb5be" style="width: 100.0%; height: 100.0%;"><b>Ngân Hàng Đông Á</b><br>Ngân Hàng Đông Á, 98 Đường Nơ Trang Long, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_99cfb33ed5f443f0906b1a929af4e4eb.setContent(html_2a4ea589955ab15bbef2cdac9f6cb5be);
+            
+        
+
+        marker_680d09096770105480590af4284d5c44.bindPopup(popup_99cfb33ed5f443f0906b1a929af4e4eb)
+        ;
+
+        
+    
+    
+            marker_680d09096770105480590af4284d5c44.bindTooltip(
+                `<div>
+                     Ngân Hàng Đông Á
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78fb59dbbd17304243a3302aeee1acde = L.marker(
+                [10.81893, 106.69003],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_ecf77c65b87d732e7c3abd50f2148a50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78fb59dbbd17304243a3302aeee1acde.setIcon(icon_ecf77c65b87d732e7c3abd50f2148a50);
+        
+    
+        var popup_249358f439321f2255c52186ead7d18e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4932f7209cb5509b61c6ad1522b90d7d = $(`<div id="html_4932f7209cb5509b61c6ad1522b90d7d" style="width: 100.0%; height: 100.0%;"><b>Bus Station</b><br>Bus Station, 11 Đường Lê Quang Định, Phường 1, Quận Gò Vấp, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_249358f439321f2255c52186ead7d18e.setContent(html_4932f7209cb5509b61c6ad1522b90d7d);
+            
+        
+
+        marker_78fb59dbbd17304243a3302aeee1acde.bindPopup(popup_249358f439321f2255c52186ead7d18e)
+        ;
+
+        
+    
+    
+            marker_78fb59dbbd17304243a3302aeee1acde.bindTooltip(
+                `<div>
+                     Bus Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b1c3c1d55ea41b5a59a226016c51f59 = L.marker(
+                [10.81155, 106.69073],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_ced7c14d5fc96300faae0bd46f1b7225 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b1c3c1d55ea41b5a59a226016c51f59.setIcon(icon_ced7c14d5fc96300faae0bd46f1b7225);
+        
+    
+        var popup_dab146ceca9b0c4b75226be1c76eebfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cc61e11de64ac3d7500e9766869f0c3 = $(`<div id="html_6cc61e11de64ac3d7500e9766869f0c3" style="width: 100.0%; height: 100.0%;"><b>Bánh Mì Chay Út Ngọc</b><br>Bánh Mì Chay Út Ngọc, 37 Đường Lê Quang Định, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_dab146ceca9b0c4b75226be1c76eebfc.setContent(html_6cc61e11de64ac3d7500e9766869f0c3);
+            
+        
+
+        marker_2b1c3c1d55ea41b5a59a226016c51f59.bindPopup(popup_dab146ceca9b0c4b75226be1c76eebfc)
+        ;
+
+        
+    
+    
+            marker_2b1c3c1d55ea41b5a59a226016c51f59.bindTooltip(
+                `<div>
+                     Bánh Mì Chay Út Ngọc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38fb70a27c5ac3c07024592cfc06047d = L.marker(
+                [10.8034, 106.68954],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_66b621278166347b3d55d954ad4e8c42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38fb70a27c5ac3c07024592cfc06047d.setIcon(icon_66b621278166347b3d55d954ad4e8c42);
+        
+    
+        var popup_81ee9f9e1e50e974b1eaa658c8f798ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f38746360bcd9812c0496bd843c2e32f = $(`<div id="html_f38746360bcd9812c0496bd843c2e32f" style="width: 100.0%; height: 100.0%;"><b>Chuyển Phát Nhanh Futa Express</b><br>Chuyển Phát Nhanh Futa Express, 51A Đường Phan Đăng Lưu, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_81ee9f9e1e50e974b1eaa658c8f798ff.setContent(html_f38746360bcd9812c0496bd843c2e32f);
+            
+        
+
+        marker_38fb70a27c5ac3c07024592cfc06047d.bindPopup(popup_81ee9f9e1e50e974b1eaa658c8f798ff)
+        ;
+
+        
+    
+    
+            marker_38fb70a27c5ac3c07024592cfc06047d.bindTooltip(
+                `<div>
+                     Chuyển Phát Nhanh Futa Express
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdcf53b8dca07408cb41a606a75d06fd = L.marker(
+                [10.81136, 106.69994],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_8ac23d367d96ae8b638168d1861fa433 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdcf53b8dca07408cb41a606a75d06fd.setIcon(icon_8ac23d367d96ae8b638168d1861fa433);
+        
+    
+        var popup_e387692bdea43cf4006c3a1af0cf3022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_313184213622bed732ac772db194225a = $(`<div id="html_313184213622bed732ac772db194225a" style="width: 100.0%; height: 100.0%;"><b>Post Office-Bưu Cục Cấp 3 Chu Văn An</b><br>Post Office-Bưu Cục Cấp 3 Chu Văn An, 305 Đường Chu Văn An, Phường 12, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_e387692bdea43cf4006c3a1af0cf3022.setContent(html_313184213622bed732ac772db194225a);
+            
+        
+
+        marker_fdcf53b8dca07408cb41a606a75d06fd.bindPopup(popup_e387692bdea43cf4006c3a1af0cf3022)
+        ;
+
+        
+    
+    
+            marker_fdcf53b8dca07408cb41a606a75d06fd.bindTooltip(
+                `<div>
+                     Post Office-Bưu Cục Cấp 3 Chu Văn An
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5642b9b0893a4e534a9b0cbc5b9a947 = L.marker(
+                [10.81083, 106.69191],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_23f6563f95fe9f79b4b2e25a4e39544f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5642b9b0893a4e534a9b0cbc5b9a947.setIcon(icon_23f6563f95fe9f79b4b2e25a4e39544f);
+        
+    
+        var popup_0fdfe34bc9daba3b480c08ce2332a40c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03a8c1737914c47ab6a7551c0d9f766d = $(`<div id="html_03a8c1737914c47ab6a7551c0d9f766d" style="width: 100.0%; height: 100.0%;"><b>Tien Ich CK Mart 301A</b><br>Tien Ich CK Mart 301A, 301 Đường Lê Quang Định, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_0fdfe34bc9daba3b480c08ce2332a40c.setContent(html_03a8c1737914c47ab6a7551c0d9f766d);
+            
+        
+
+        marker_b5642b9b0893a4e534a9b0cbc5b9a947.bindPopup(popup_0fdfe34bc9daba3b480c08ce2332a40c)
+        ;
+
+        
+    
+    
+            marker_b5642b9b0893a4e534a9b0cbc5b9a947.bindTooltip(
+                `<div>
+                     Tien Ich CK Mart 301A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_768f524a771ae7118aef25094be31dc2 = L.marker(
+                [10.81262, 106.69023],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_f7875591e339f4d5b9cb155275c93033 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_768f524a771ae7118aef25094be31dc2.setIcon(icon_f7875591e339f4d5b9cb155275c93033);
+        
+    
+        var popup_eb4e15edbe9cdf6ace8401d61291c464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5715ec985b05a676aa0aa662700d93ac = $(`<div id="html_5715ec985b05a676aa0aa662700d93ac" style="width: 100.0%; height: 100.0%;"><b>Shop Phúc Tân 1</b><br>Shop Phúc Tân 1, 454 Đường Lê Quang Định, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_eb4e15edbe9cdf6ace8401d61291c464.setContent(html_5715ec985b05a676aa0aa662700d93ac);
+            
+        
+
+        marker_768f524a771ae7118aef25094be31dc2.bindPopup(popup_eb4e15edbe9cdf6ace8401d61291c464)
+        ;
+
+        
+    
+    
+            marker_768f524a771ae7118aef25094be31dc2.bindTooltip(
+                `<div>
+                     Shop Phúc Tân 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0184b1e53f5e4cafc3355067bca4096 = L.marker(
+                [10.81176, 106.69183],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_7a0675cce24478a460e04e039bb8a9d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0184b1e53f5e4cafc3355067bca4096.setIcon(icon_7a0675cce24478a460e04e039bb8a9d5);
+        
+    
+        var popup_6dadf390ded51bc52555364b8d512ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b77fb173ce98118292063feb68499704 = $(`<div id="html_b77fb173ce98118292063feb68499704" style="width: 100.0%; height: 100.0%;"><b>Mini Stop Nguyễn Văn Đậu</b><br>Mini Stop Nguyễn Văn Đậu, 183 Đường Nguyễn Văn Đậu, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_6dadf390ded51bc52555364b8d512ac2.setContent(html_b77fb173ce98118292063feb68499704);
+            
+        
+
+        marker_b0184b1e53f5e4cafc3355067bca4096.bindPopup(popup_6dadf390ded51bc52555364b8d512ac2)
+        ;
+
+        
+    
+    
+            marker_b0184b1e53f5e4cafc3355067bca4096.bindTooltip(
+                `<div>
+                     Mini Stop Nguyễn Văn Đậu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e230a5c539ba5c68694333bf5e0d8670 = L.marker(
+                [10.80403, 106.68665],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_aefb12b546349833041be54c1eb50196 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e230a5c539ba5c68694333bf5e0d8670.setIcon(icon_aefb12b546349833041be54c1eb50196);
+        
+    
+        var popup_69401028370d864e50437b69b3c2a479 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbcd1e46daa2a95215b6cbfd3bd91452 = $(`<div id="html_dbcd1e46daa2a95215b6cbfd3bd91452" style="width: 100.0%; height: 100.0%;"><b>Bánh Mì Hà Nội Hoàng Long</b><br>Bánh Mì Hà Nội Hoàng Long, 60A Đường Phan Đăng Lưu, Phường 5, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_69401028370d864e50437b69b3c2a479.setContent(html_dbcd1e46daa2a95215b6cbfd3bd91452);
+            
+        
+
+        marker_e230a5c539ba5c68694333bf5e0d8670.bindPopup(popup_69401028370d864e50437b69b3c2a479)
+        ;
+
+        
+    
+    
+            marker_e230a5c539ba5c68694333bf5e0d8670.bindTooltip(
+                `<div>
+                     Bánh Mì Hà Nội Hoàng Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01909050dcb9bd20e5840d230337984e = L.marker(
+                [10.80378, 106.68806],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_6bad45a1c500c771c904f6e9adbdcd03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01909050dcb9bd20e5840d230337984e.setIcon(icon_6bad45a1c500c771c904f6e9adbdcd03);
+        
+    
+        var popup_d0dc3be439638d9a441a62b0b922c70b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d61519422b6ee4d407105c1540946db8 = $(`<div id="html_d61519422b6ee4d407105c1540946db8" style="width: 100.0%; height: 100.0%;"><b>Ngân Hàng Bắc Á</b><br>Ngân Hàng Bắc Á, 36 Đường Phan Đăng Lưu, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_d0dc3be439638d9a441a62b0b922c70b.setContent(html_d61519422b6ee4d407105c1540946db8);
+            
+        
+
+        marker_01909050dcb9bd20e5840d230337984e.bindPopup(popup_d0dc3be439638d9a441a62b0b922c70b)
+        ;
+
+        
+    
+    
+            marker_01909050dcb9bd20e5840d230337984e.bindTooltip(
+                `<div>
+                     Ngân Hàng Bắc Á
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_331d556e99b82fd5d26c4e284609797f = L.marker(
+                [10.80656, 106.6806],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_371e13a69a07ea00c7922b1b1ce9077b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_331d556e99b82fd5d26c4e284609797f.setIcon(icon_371e13a69a07ea00c7922b1b1ce9077b);
+        
+    
+        var popup_4326bb6adb282ee6eb35e8bae1872cea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cf01e9e2d3141d22d46b0ff150614bb = $(`<div id="html_4cf01e9e2d3141d22d46b0ff150614bb" style="width: 100.0%; height: 100.0%;"><b>Cty TNHH MTV VH Đại Việt Á</b><br>Cty TNHH MTV VH Đại Việt Á, 167A Đường Thích Quảng Đức, Phường 5, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_4326bb6adb282ee6eb35e8bae1872cea.setContent(html_4cf01e9e2d3141d22d46b0ff150614bb);
+            
+        
+
+        marker_331d556e99b82fd5d26c4e284609797f.bindPopup(popup_4326bb6adb282ee6eb35e8bae1872cea)
+        ;
+
+        
+    
+    
+            marker_331d556e99b82fd5d26c4e284609797f.bindTooltip(
+                `<div>
+                     Cty TNHH MTV VH Đại Việt Á
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a0bada18a5c9c4a4d2dadbd6f7cc831 = L.marker(
+                [10.80817, 106.68834],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_f362d7c1e744719c1fec3611f5afc631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a0bada18a5c9c4a4d2dadbd6f7cc831.setIcon(icon_f362d7c1e744719c1fec3611f5afc631);
+        
+    
+        var popup_d2f0b19eed5c8e229d78a41603be7c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eaaf5cbfdb8c8c09471881178bcc79a = $(`<div id="html_9eaaf5cbfdb8c8c09471881178bcc79a" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng Thúy Dũng</b><br>Cửa Hàng Thúy Dũng, 125 Đường Hoàng Hoa Thám, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_d2f0b19eed5c8e229d78a41603be7c8c.setContent(html_9eaaf5cbfdb8c8c09471881178bcc79a);
+            
+        
+
+        marker_3a0bada18a5c9c4a4d2dadbd6f7cc831.bindPopup(popup_d2f0b19eed5c8e229d78a41603be7c8c)
+        ;
+
+        
+    
+    
+            marker_3a0bada18a5c9c4a4d2dadbd6f7cc831.bindTooltip(
+                `<div>
+                     Cửa Hàng Thúy Dũng
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_103396a9202e0a7aefba42b39429f50b = L.marker(
+                [10.80589, 106.68571],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_357ac84a50003a031cc6ddadbd76f5e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_103396a9202e0a7aefba42b39429f50b.setIcon(icon_357ac84a50003a031cc6ddadbd76f5e3);
+        
+    
+        var popup_0cd15d463a223fb2d770f04dc749e3d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77f40a4d8874b3308a14948707f7d455 = $(`<div id="html_77f40a4d8874b3308a14948707f7d455" style="width: 100.0%; height: 100.0%;"><b>Ministop-Nguyễn Thượng Hiền</b><br>Ministop-Nguyễn Thượng Hiền, 245 Hẻm 308 Đường Nguyễn Thượng Hiền, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_0cd15d463a223fb2d770f04dc749e3d5.setContent(html_77f40a4d8874b3308a14948707f7d455);
+            
+        
+
+        marker_103396a9202e0a7aefba42b39429f50b.bindPopup(popup_0cd15d463a223fb2d770f04dc749e3d5)
+        ;
+
+        
+    
+    
+            marker_103396a9202e0a7aefba42b39429f50b.bindTooltip(
+                `<div>
+                     Ministop-Nguyễn Thượng Hiền
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffadaaa81bb53542aa5292d2ac515756 = L.marker(
+                [10.80956, 106.68933],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_0df8f1d8647211fd21a1094f08e6f2a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffadaaa81bb53542aa5292d2ac515756.setIcon(icon_0df8f1d8647211fd21a1094f08e6f2a2);
+        
+    
+        var popup_a4dc2d78e58d0687380a8184698de89c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c526feb0acda29cec194fabb849072b6 = $(`<div id="html_c526feb0acda29cec194fabb849072b6" style="width: 100.0%; height: 100.0%;"><b>VinMart+</b><br>VinMart+, 121 Đường Nguyễn Văn Đậu, Phường 5, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_a4dc2d78e58d0687380a8184698de89c.setContent(html_c526feb0acda29cec194fabb849072b6);
+            
+        
+
+        marker_ffadaaa81bb53542aa5292d2ac515756.bindPopup(popup_a4dc2d78e58d0687380a8184698de89c)
+        ;
+
+        
+    
+    
+            marker_ffadaaa81bb53542aa5292d2ac515756.bindTooltip(
+                `<div>
+                     VinMart+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e0299722485020d15e2b89867915a3e = L.marker(
+                [10.81261, 106.68724],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_ae14259336dce027ca7921abe6bf18ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e0299722485020d15e2b89867915a3e.setIcon(icon_ae14259336dce027ca7921abe6bf18ce);
+        
+    
+        var popup_eedce58ed2a90fdc0cfa609efe173d3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_332802a8f8894fd6a696899cdcf0f3df = $(`<div id="html_332802a8f8894fd6a696899cdcf0f3df" style="width: 100.0%; height: 100.0%;"><b>Vivanshop-Sỉ & Lẻ Túi Xách</b><br>Vivanshop-Sỉ & Lẻ Túi Xách, 6 Hẻm 1 Nguyễn Trung Trực, Phường 5, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_eedce58ed2a90fdc0cfa609efe173d3c.setContent(html_332802a8f8894fd6a696899cdcf0f3df);
+            
+        
+
+        marker_5e0299722485020d15e2b89867915a3e.bindPopup(popup_eedce58ed2a90fdc0cfa609efe173d3c)
+        ;
+
+        
+    
+    
+            marker_5e0299722485020d15e2b89867915a3e.bindTooltip(
+                `<div>
+                     Vivanshop-Sỉ & Lẻ Túi Xách
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c41897fc273207221a90a0927016dd74 = L.marker(
+                [10.80543, 106.68226],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_d531de9fec4d08a1b0bbfb2dc7d6e035 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c41897fc273207221a90a0927016dd74.setIcon(icon_d531de9fec4d08a1b0bbfb2dc7d6e035);
+        
+    
+        var popup_fc34dbba7d3fc121e4a2c67c5fc4cf4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ddb9ea594772da6155bba6d4c5f665e = $(`<div id="html_0ddb9ea594772da6155bba6d4c5f665e" style="width: 100.0%; height: 100.0%;"><b>Yến Thị</b><br>Yến Thị, 86 Đường Thích Quảng Đức, Phường 5, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_fc34dbba7d3fc121e4a2c67c5fc4cf4a.setContent(html_0ddb9ea594772da6155bba6d4c5f665e);
+            
+        
+
+        marker_c41897fc273207221a90a0927016dd74.bindPopup(popup_fc34dbba7d3fc121e4a2c67c5fc4cf4a)
+        ;
+
+        
+    
+    
+            marker_c41897fc273207221a90a0927016dd74.bindTooltip(
+                `<div>
+                     Yến Thị
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78d563f4d1cff28bce459a0786575510 = L.marker(
+                [10.80033, 106.69945],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_d9ed7a56b18b74b7e65e910d524dcac7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78d563f4d1cff28bce459a0786575510.setIcon(icon_d9ed7a56b18b74b7e65e910d524dcac7);
+        
+    
+        var popup_c857cf22a80b0d4cd6f54e48f947e1e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ffe0aada74661f85b3ab792a99d6b79 = $(`<div id="html_1ffe0aada74661f85b3ab792a99d6b79" style="width: 100.0%; height: 100.0%;"><b>Bưu Điện Cún Con</b><br>Bưu Điện Cún Con, 288 Đường Bùi Hữu Nghĩa, Phường 1, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_c857cf22a80b0d4cd6f54e48f947e1e7.setContent(html_1ffe0aada74661f85b3ab792a99d6b79);
+            
+        
+
+        marker_78d563f4d1cff28bce459a0786575510.bindPopup(popup_c857cf22a80b0d4cd6f54e48f947e1e7)
+        ;
+
+        
+    
+    
+            marker_78d563f4d1cff28bce459a0786575510.bindTooltip(
+                `<div>
+                     Bưu Điện Cún Con
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef2800858ff830a1ae007b2a5172742e = L.marker(
+                [10.81527, 106.70788],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_37bba89e70d2f0c2c4230214f84d63be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef2800858ff830a1ae007b2a5172742e.setIcon(icon_37bba89e70d2f0c2c4230214f84d63be);
+        
+    
+        var popup_8d98fcb741cb9ae5447a58831f76828d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f732d74e30e03fcc2f1894b9c3e41f0e = $(`<div id="html_f732d74e30e03fcc2f1894b9c3e41f0e" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng Tạp Hóa Tuyết Nguyên</b><br>Cửa Hàng Tạp Hóa Tuyết Nguyên, 184 Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_8d98fcb741cb9ae5447a58831f76828d.setContent(html_f732d74e30e03fcc2f1894b9c3e41f0e);
+            
+        
+
+        marker_ef2800858ff830a1ae007b2a5172742e.bindPopup(popup_8d98fcb741cb9ae5447a58831f76828d)
+        ;
+
+        
+    
+    
+            marker_ef2800858ff830a1ae007b2a5172742e.bindTooltip(
+                `<div>
+                     Cửa Hàng Tạp Hóa Tuyết Nguyên
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74376d0308f90407340199fd8ce5bcec = L.marker(
+                [10.80798, 106.67854],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_803b55e679ceb06808e01b595dda157e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74376d0308f90407340199fd8ce5bcec.setIcon(icon_803b55e679ceb06808e01b595dda157e);
+        
+    
+        var popup_57b49191e01ca365a92739f17d5200fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaaa219a98d2d7c68c19cf4eddbc573f = $(`<div id="html_aaaa219a98d2d7c68c19cf4eddbc573f" style="width: 100.0%; height: 100.0%;"><b>Quán Ăn Vặt</b><br>Quán Ăn Vặt, 736B Đường Nguyễn Kiệm, Phường 9, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_57b49191e01ca365a92739f17d5200fd.setContent(html_aaaa219a98d2d7c68c19cf4eddbc573f);
+            
+        
+
+        marker_74376d0308f90407340199fd8ce5bcec.bindPopup(popup_57b49191e01ca365a92739f17d5200fd)
+        ;
+
+        
+    
+    
+            marker_74376d0308f90407340199fd8ce5bcec.bindTooltip(
+                `<div>
+                     Quán Ăn Vặt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eab5729f3bf35a27fac6bf34eccc804c = L.marker(
+                [10.80859, 106.68561],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_fbdd2c84547ca48e31f4a7462515c9e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_eab5729f3bf35a27fac6bf34eccc804c.setIcon(icon_fbdd2c84547ca48e31f4a7462515c9e8);
+        
+    
+        var popup_1c3b01725eee248beb7c7a03a5b026b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b160bb590db41e6091c229b730bfdb57 = $(`<div id="html_b160bb590db41e6091c229b730bfdb57" style="width: 100.0%; height: 100.0%;"><b>Cơm Tấm Bình</b><br>Cơm Tấm Bình, 189/13 Đường Hoàng Hoa Thám, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_1c3b01725eee248beb7c7a03a5b026b2.setContent(html_b160bb590db41e6091c229b730bfdb57);
+            
+        
+
+        marker_eab5729f3bf35a27fac6bf34eccc804c.bindPopup(popup_1c3b01725eee248beb7c7a03a5b026b2)
+        ;
+
+        
+    
+    
+            marker_eab5729f3bf35a27fac6bf34eccc804c.bindTooltip(
+                `<div>
+                     Cơm Tấm Bình
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7413b9846e419fd25a01cfd941363a3f = L.marker(
+                [10.8075, 106.67849],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_04a14f6919529380b08b820845dbb3c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7413b9846e419fd25a01cfd941363a3f.setIcon(icon_04a14f6919529380b08b820845dbb3c2);
+        
+    
+        var popup_6346d4cd55a33403782100f10c9e8bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b19c79ba1304823abbdfa1c5a2aad78a = $(`<div id="html_b19c79ba1304823abbdfa1c5a2aad78a" style="width: 100.0%; height: 100.0%;"><b>Món Ngon Hà Nội</b><br>Món Ngon Hà Nội, 724 Đường Nguyễn Kiệm, Phường 9, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_6346d4cd55a33403782100f10c9e8bf4.setContent(html_b19c79ba1304823abbdfa1c5a2aad78a);
+            
+        
+
+        marker_7413b9846e419fd25a01cfd941363a3f.bindPopup(popup_6346d4cd55a33403782100f10c9e8bf4)
+        ;
+
+        
+    
+    
+            marker_7413b9846e419fd25a01cfd941363a3f.bindTooltip(
+                `<div>
+                     Món Ngon Hà Nội
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d6958afd3988d3b50d4b2bce6c2ce82 = L.marker(
+                [10.81809, 106.69174],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_bafe81d57bd0b8079f3537e2178a8d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d6958afd3988d3b50d4b2bce6c2ce82.setIcon(icon_bafe81d57bd0b8079f3537e2178a8d8c);
+        
+    
+        var popup_cf0bee8836fc7c2e8b8c031aa58edce7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2796b2cde579d96452b2ee48d4917d = $(`<div id="html_fa2796b2cde579d96452b2ee48d4917d" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng S & T Laminage</b><br>Cửa Hàng S & T Laminage, 39 Đường Nguyên Hồng, Phường 1, Quận Gò Vấp, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_cf0bee8836fc7c2e8b8c031aa58edce7.setContent(html_fa2796b2cde579d96452b2ee48d4917d);
+            
+        
+
+        marker_8d6958afd3988d3b50d4b2bce6c2ce82.bindPopup(popup_cf0bee8836fc7c2e8b8c031aa58edce7)
+        ;
+
+        
+    
+    
+            marker_8d6958afd3988d3b50d4b2bce6c2ce82.bindTooltip(
+                `<div>
+                     Cửa Hàng S & T Laminage
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d2f089c749d48e2a0885f2c09a4bf9c = L.marker(
+                [10.79014, 106.70965],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_8fff93d665dc85cec9c7fa6c54f9c34f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d2f089c749d48e2a0885f2c09a4bf9c.setIcon(icon_8fff93d665dc85cec9c7fa6c54f9c34f);
+        
+    
+        var popup_e9256e5b508d64234f354ecafcf7d6fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2138652b43a42d0d110e342f8ae36221 = $(`<div id="html_2138652b43a42d0d110e342f8ae36221" style="width: 100.0%; height: 100.0%;"><b>Tạp Hóa Thanh Thủy</b><br>Tạp Hóa Thanh Thủy, 12C Đường Phạm Viết Chánh, Phường 19, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_e9256e5b508d64234f354ecafcf7d6fb.setContent(html_2138652b43a42d0d110e342f8ae36221);
+            
+        
+
+        marker_0d2f089c749d48e2a0885f2c09a4bf9c.bindPopup(popup_e9256e5b508d64234f354ecafcf7d6fb)
+        ;
+
+        
+    
+    
+            marker_0d2f089c749d48e2a0885f2c09a4bf9c.bindTooltip(
+                `<div>
+                     Tạp Hóa Thanh Thủy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25708373e0229f290af18cb31712a1e9 = L.marker(
+                [10.79909, 106.71099],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_ba2e21da454fffc8e66bf1cabf224ce1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25708373e0229f290af18cb31712a1e9.setIcon(icon_ba2e21da454fffc8e66bf1cabf224ce1);
+        
+    
+        var popup_e4ecf37740396a1bf813908359937f18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10de3fbf25966d0a306a5d4fa9fd4e13 = $(`<div id="html_10de3fbf25966d0a306a5d4fa9fd4e13" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng Thực Phẩm Tiện Lợi Satra Foods</b><br>Cửa Hàng Thực Phẩm Tiện Lợi Satra Foods, 175 Đường Xô Viết Nghệ Tĩnh, Phường 17, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_e4ecf37740396a1bf813908359937f18.setContent(html_10de3fbf25966d0a306a5d4fa9fd4e13);
+            
+        
+
+        marker_25708373e0229f290af18cb31712a1e9.bindPopup(popup_e4ecf37740396a1bf813908359937f18)
+        ;
+
+        
+    
+    
+            marker_25708373e0229f290af18cb31712a1e9.bindTooltip(
+                `<div>
+                     Cửa Hàng Thực Phẩm Tiện Lợi Satra Foods
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f86b1b1ffbaa3552b7f9ed09791864e0 = L.marker(
+                [10.79734, 106.70816],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_307b567f1b97134940717433b61db4ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f86b1b1ffbaa3552b7f9ed09791864e0.setIcon(icon_307b567f1b97134940717433b61db4ca);
+        
+    
+        var popup_563febe7db78960a8dfdd25655b920a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e79f15aa4a1839071958a3f2a15fe6 = $(`<div id="html_24e79f15aa4a1839071958a3f2a15fe6" style="width: 100.0%; height: 100.0%;"><b>The Arcanstone</b><br>The Arcanstone, 236/43/21 Đường Điện Biên Phủ, Phường 17, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_563febe7db78960a8dfdd25655b920a4.setContent(html_24e79f15aa4a1839071958a3f2a15fe6);
+            
+        
+
+        marker_f86b1b1ffbaa3552b7f9ed09791864e0.bindPopup(popup_563febe7db78960a8dfdd25655b920a4)
+        ;
+
+        
+    
+    
+            marker_f86b1b1ffbaa3552b7f9ed09791864e0.bindTooltip(
+                `<div>
+                     The Arcanstone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_104f7533cee38eb5117a4569aa5f85a1 = L.marker(
+                [10.79404, 106.70094],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_cac93c9dccb8e566fbe74b384a9c590a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_104f7533cee38eb5117a4569aa5f85a1.setIcon(icon_cac93c9dccb8e566fbe74b384a9c590a);
+        
+    
+        var popup_3bb45151828d155e15be47da7f9a2b65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1daca800f268463a0c994ab6f73190c3 = $(`<div id="html_1daca800f268463a0c994ab6f73190c3" style="width: 100.0%; height: 100.0%;"><b>VNPT VinaPhone</b><br>VNPT VinaPhone, 1 Đường Điện Biên Phủ, Phường 15, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_3bb45151828d155e15be47da7f9a2b65.setContent(html_1daca800f268463a0c994ab6f73190c3);
+            
+        
+
+        marker_104f7533cee38eb5117a4569aa5f85a1.bindPopup(popup_3bb45151828d155e15be47da7f9a2b65)
+        ;
+
+        
+    
+    
+            marker_104f7533cee38eb5117a4569aa5f85a1.bindTooltip(
+                `<div>
+                     VNPT VinaPhone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5d18a383fa7abf413ef44fe179677cb = L.marker(
+                [10.78989, 106.7024],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_860555967619328fbde124cc12fe9e02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5d18a383fa7abf413ef44fe179677cb.setIcon(icon_860555967619328fbde124cc12fe9e02);
+        
+    
+        var popup_c26f2ea40586fc29f64585c69a50e769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8173788e2302a99233e559ac5d31a3a = $(`<div id="html_c8173788e2302a99233e559ac5d31a3a" style="width: 100.0%; height: 100.0%;"><b>Cửa Hàng Thủ Công Mỹ Nghệ Hacota</b><br>Cửa Hàng Thủ Công Mỹ Nghệ Hacota, 8 Đường Nguyễn Bỉnh Khiêm, Phường Đa Kao, Quận 1, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_c26f2ea40586fc29f64585c69a50e769.setContent(html_c8173788e2302a99233e559ac5d31a3a);
+            
+        
+
+        marker_d5d18a383fa7abf413ef44fe179677cb.bindPopup(popup_c26f2ea40586fc29f64585c69a50e769)
+        ;
+
+        
+    
+    
+            marker_d5d18a383fa7abf413ef44fe179677cb.bindTooltip(
+                `<div>
+                     Cửa Hàng Thủ Công Mỹ Nghệ Hacota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43f1486c80ee819138d137922d7a34a0 = L.marker(
+                [10.80269, 106.69546],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_110308a6d87fffaebf76ec9e4df0176a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43f1486c80ee819138d137922d7a34a0.setIcon(icon_110308a6d87fffaebf76ec9e4df0176a);
+        
+    
+        var popup_41cf11ec304bd2c8fbabb348c4e1cf1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50a9d779bfc0e2f52cc06aea002a7dd7 = $(`<div id="html_50a9d779bfc0e2f52cc06aea002a7dd7" style="width: 100.0%; height: 100.0%;"><b>Bưu Điện Quận Bình Thạnh</b><br>Bưu Điện Quận Bình Thạnh, 3 Đường Phan Đăng Lưu, Phường 14, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_41cf11ec304bd2c8fbabb348c4e1cf1c.setContent(html_50a9d779bfc0e2f52cc06aea002a7dd7);
+            
+        
+
+        marker_43f1486c80ee819138d137922d7a34a0.bindPopup(popup_41cf11ec304bd2c8fbabb348c4e1cf1c)
+        ;
+
+        
+    
+    
+            marker_43f1486c80ee819138d137922d7a34a0.bindTooltip(
+                `<div>
+                     Bưu Điện Quận Bình Thạnh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_026cce34a7648387e88e91ca52b322d2 = L.marker(
+                [10.81603, 106.70695],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_71c0d56c4cf6b4e7c15f6e694a0a9141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_026cce34a7648387e88e91ca52b322d2.setIcon(icon_71c0d56c4cf6b4e7c15f6e694a0a9141);
+        
+    
+        var popup_225a3d5c8c60ac6fa3f4325af5f4cd78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80e9d707d8368d67045987bc7948a0c8 = $(`<div id="html_80e9d707d8368d67045987bc7948a0c8" style="width: 100.0%; height: 100.0%;"><b>Techcombank-Techcombank Lê Quang Định</b><br>Techcombank-Techcombank Lê Quang Định, 205A Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_225a3d5c8c60ac6fa3f4325af5f4cd78.setContent(html_80e9d707d8368d67045987bc7948a0c8);
+            
+        
+
+        marker_026cce34a7648387e88e91ca52b322d2.bindPopup(popup_225a3d5c8c60ac6fa3f4325af5f4cd78)
+        ;
+
+        
+    
+    
+            marker_026cce34a7648387e88e91ca52b322d2.bindTooltip(
+                `<div>
+                     Techcombank-Techcombank Lê Quang Định
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe532212b64580bfd549114876413617 = L.marker(
+                [10.8189, 106.70022],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_43667f7d07a18e7a1976990f70d182ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe532212b64580bfd549114876413617.setIcon(icon_43667f7d07a18e7a1976990f70d182ca);
+        
+    
+        var popup_fa5859a6325c9369b5611ff01154f97c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b10f73a144f43fe8beac1292c0e019 = $(`<div id="html_03b10f73a144f43fe8beac1292c0e019" style="width: 100.0%; height: 100.0%;"><b>Ngân Hàng NN & PT Nông Thôn</b><br>Ngân Hàng NN & PT Nông Thôn, 364 Đường Nơ Trang Long, Phường 13, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_fa5859a6325c9369b5611ff01154f97c.setContent(html_03b10f73a144f43fe8beac1292c0e019);
+            
+        
+
+        marker_fe532212b64580bfd549114876413617.bindPopup(popup_fa5859a6325c9369b5611ff01154f97c)
+        ;
+
+        
+    
+    
+            marker_fe532212b64580bfd549114876413617.bindTooltip(
+                `<div>
+                     Ngân Hàng NN & PT Nông Thôn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c4065394e7ced91fb2ffbbddada67c7 = L.marker(
+                [10.79944, 106.719],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_3ce6fa5f67648bb34b2549d1a1776a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c4065394e7ced91fb2ffbbddada67c7.setIcon(icon_3ce6fa5f67648bb34b2549d1a1776a36);
+        
+    
+        var popup_b7f0c16c96100c4854fd6388a879fb42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bb2cd0be46428bf8a9115764bf1de44 = $(`<div id="html_5bb2cd0be46428bf8a9115764bf1de44" style="width: 100.0%; height: 100.0%;"><b>Đức Thành</b><br>Đức Thành, 565 Đường Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_b7f0c16c96100c4854fd6388a879fb42.setContent(html_5bb2cd0be46428bf8a9115764bf1de44);
+            
+        
+
+        marker_0c4065394e7ced91fb2ffbbddada67c7.bindPopup(popup_b7f0c16c96100c4854fd6388a879fb42)
+        ;
+
+        
+    
+    
+            marker_0c4065394e7ced91fb2ffbbddada67c7.bindTooltip(
+                `<div>
+                     Đức Thành
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c235b7585ca663223ee8ee70aa3d2f0 = L.marker(
+                [10.80442, 106.72896],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_42751f1075020869022a2c0870e67b03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c235b7585ca663223ee8ee70aa3d2f0.setIcon(icon_42751f1075020869022a2c0870e67b03);
+        
+    
+        var popup_919dcb2bfd8ae79f4aac8d5bd347aaa8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4018cfa5479cbbc7449dc9c58310314 = $(`<div id="html_b4018cfa5479cbbc7449dc9c58310314" style="width: 100.0%; height: 100.0%;"><b>Hallelu Chocolate - Thảo Điền</b><br>Hallelu Chocolate - Thảo Điền, 43 Đường Nguyễn Bá Huân, Phường Thảo Điền, Thủ Đức, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_919dcb2bfd8ae79f4aac8d5bd347aaa8.setContent(html_b4018cfa5479cbbc7449dc9c58310314);
+            
+        
+
+        marker_1c235b7585ca663223ee8ee70aa3d2f0.bindPopup(popup_919dcb2bfd8ae79f4aac8d5bd347aaa8)
+        ;
+
+        
+    
+    
+            marker_1c235b7585ca663223ee8ee70aa3d2f0.bindTooltip(
+                `<div>
+                     Hallelu Chocolate - Thảo Điền
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f8f47d3e50b4fc853ceb6ea37b93a92 = L.marker(
+                [10.80327, 106.72944],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_51483de6a03fcd604fdca9dafc4b2d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f8f47d3e50b4fc853ceb6ea37b93a92.setIcon(icon_51483de6a03fcd604fdca9dafc4b2d98);
+        
+    
+        var popup_5dc5c8387b3fca810dcf26974c581f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc9a38491888fe30aec2407caf79a40 = $(`<div id="html_1cc9a38491888fe30aec2407caf79a40" style="width: 100.0%; height: 100.0%;"><b>Saigon Barber</b><br>Saigon Barber, 8C Đường Nguyễn Bá Huân, Phường Thảo Điền, Thủ Đức, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_5dc5c8387b3fca810dcf26974c581f84.setContent(html_1cc9a38491888fe30aec2407caf79a40);
+            
+        
+
+        marker_5f8f47d3e50b4fc853ceb6ea37b93a92.bindPopup(popup_5dc5c8387b3fca810dcf26974c581f84)
+        ;
+
+        
+    
+    
+            marker_5f8f47d3e50b4fc853ceb6ea37b93a92.bindTooltip(
+                `<div>
+                     Saigon Barber
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df105001f85dfcca653f6145bb9933c1 = L.marker(
+                [10.81475, 106.72118],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_8cb97113ef9abee9d6e194f57abecfee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df105001f85dfcca653f6145bb9933c1.setIcon(icon_8cb97113ef9abee9d6e194f57abecfee);
+        
+    
+        var popup_24826f5a0aec9d6f8596410f867f5744 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ece620b9314e70c83a515e885b5308 = $(`<div id="html_e4ece620b9314e70c83a515e885b5308" style="width: 100.0%; height: 100.0%;"><b>Ngoi Nha Nho</b><br>Ngoi Nha Nho, 17 Đường Thanh Đa, Phường 27, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_24826f5a0aec9d6f8596410f867f5744.setContent(html_e4ece620b9314e70c83a515e885b5308);
+            
+        
+
+        marker_df105001f85dfcca653f6145bb9933c1.bindPopup(popup_24826f5a0aec9d6f8596410f867f5744)
+        ;
+
+        
+    
+    
+            marker_df105001f85dfcca653f6145bb9933c1.bindTooltip(
+                `<div>
+                     Ngoi Nha Nho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d4c1b6cc7eca06abf255b36a0e1c4a6 = L.marker(
+                [10.80148, 106.70911],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_a843fedc0ecddb51bebb4a2a87d93fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d4c1b6cc7eca06abf255b36a0e1c4a6.setIcon(icon_a843fedc0ecddb51bebb4a2a87d93fe2);
+        
+    
+        var popup_22692bbd5d8f79fcfa7eed76c80c7482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ce73a12ca88824735791a1e67e3de27 = $(`<div id="html_0ce73a12ca88824735791a1e67e3de27" style="width: 100.0%; height: 100.0%;"><b>Điểm Dừng Xe Buýt</b><br>Điểm Dừng Xe Buýt, 24 Đường Đinh Bộ Lĩnh, Phường 15, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_22692bbd5d8f79fcfa7eed76c80c7482.setContent(html_0ce73a12ca88824735791a1e67e3de27);
+            
+        
+
+        marker_9d4c1b6cc7eca06abf255b36a0e1c4a6.bindPopup(popup_22692bbd5d8f79fcfa7eed76c80c7482)
+        ;
+
+        
+    
+    
+            marker_9d4c1b6cc7eca06abf255b36a0e1c4a6.bindTooltip(
+                `<div>
+                     Điểm Dừng Xe Buýt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ef3e8c4128ce59653c46b6f69e84c19 = L.marker(
+                [10.8151, 106.71292],
+                {}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var icon_b3d12974a102ae31bce2858ec84ccbbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ef3e8c4128ce59653c46b6f69e84c19.setIcon(icon_b3d12974a102ae31bce2858ec84ccbbc);
+        
+    
+        var popup_1958150144d69b111cba121bf535d2fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eed75bf7bdf8006dc8b4fd0b5593c32 = $(`<div id="html_8eed75bf7bdf8006dc8b4fd0b5593c32" style="width: 100.0%; height: 100.0%;"><b>Xe Chất Lượng Cao Thuận Thảo</b><br>Xe Chất Lượng Cao Thuận Thảo, 196 Quốc Lộ 13, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_1958150144d69b111cba121bf535d2fe.setContent(html_8eed75bf7bdf8006dc8b4fd0b5593c32);
+            
+        
+
+        marker_0ef3e8c4128ce59653c46b6f69e84c19.bindPopup(popup_1958150144d69b111cba121bf535d2fe)
+        ;
+
+        
+    
+    
+            marker_0ef3e8c4128ce59653c46b6f69e84c19.bindTooltip(
+                `<div>
+                     Xe Chất Lượng Cao Thuận Thảo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aab5c8a112c74aaf0419e7ba0e349403 = L.polyline(
+                [[10.79795, 106.68888], [10.80378, 106.68806]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_468b37ac0af0c4076164f3c8d9a3d75f = L.polyline(
+                [[10.79242, 106.69333], [10.79795, 106.68888]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_66ec8df87c35a31cbe2db1b840907fa5 = L.polyline(
+                [[10.79242, 106.69333], [10.79895, 106.68905]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_0f79b4b76fc2c6d9e3ec1aa1a16c6d3c = L.polyline(
+                [[10.79895, 106.68905], [10.80589, 106.68571]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_11d121bc07e38649b4cd9578a1f23812 = L.polyline(
+                [[10.79237, 106.69399], [10.79895, 106.68905]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_e046f7983758f7606fddcee45f2c2666 = L.polyline(
+                [[10.8037, 106.70028], [10.80644, 106.69728]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_52d5060fdb5c13de5cd1de770a5ff858 = L.polyline(
+                [[10.8037, 106.70028], [10.80561, 106.69643]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_65bf6d52934ed4ec7cff094e716d2478 = L.polyline(
+                [[10.8037, 106.70028], [10.80859, 106.69519]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_00bd39139a321c584f43874662c65404 = L.polyline(
+                [[10.8037, 106.70028], [10.81136, 106.69994]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_40a2951c971c6cf058dd043ee8c889a8 = L.polyline(
+                [[10.8037, 106.70028], [10.80269, 106.69546]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_159e7e98a2326442b59010a47bab45e7 = L.polyline(
+                [[10.80644, 106.69728], [10.80628, 106.69017]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_34902239935c99b7b51ce20a84258c1b = L.polyline(
+                [[10.80644, 106.69728], [10.81083, 106.69191]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_cafffc3da616bba01f7d91ed31b29b98 = L.polyline(
+                [[10.79848, 106.71153], [10.79827, 106.70524]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4d0793666657873e3468930d7e488f43 = L.polyline(
+                [[10.80929, 106.71328], [10.80827, 106.71495]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_610ce96d652598181610e91d9e959909 = L.polyline(
+                [[10.80845, 106.70881], [10.80547, 106.71607]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_cd664df71c0de66cae16d7393e425831 = L.polyline(
+                [[10.80845, 106.70881], [10.81527, 106.70788]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_0ebd0bfa95c6c280e0646e3522442aec = L.polyline(
+                [[10.80845, 106.70881], [10.80148, 106.70911]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_52997ea8f49c97bcdb66f0f4bf6b6227 = L.polyline(
+                [[10.79827, 106.70524], [10.8037, 106.70028]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c66dc7e7a290410b9769c6e3341fce15 = L.polyline(
+                [[10.79827, 106.70524], [10.80033, 106.69945]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_5404470c6d66de4f2507e14b38808cb2 = L.polyline(
+                [[10.80547, 106.71607], [10.79848, 106.71153]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_1c87ea92ba28c725d94257be28e717a7 = L.polyline(
+                [[10.80547, 106.71607], [10.80148, 106.70911]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_7182a1279af040e94aab1642bea53a80 = L.polyline(
+                [[10.80676, 106.70933], [10.79848, 106.71153]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_e9c5196710a37459583d41a3b4ea6e90 = L.polyline(
+                [[10.80676, 106.70933], [10.79909, 106.71099]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_04493cf62bdeb142c486263a10c7adea = L.polyline(
+                [[10.80676, 106.70933], [10.80148, 106.70911]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_7f598d8caf2d28887dcb356c796d1e9f = L.polyline(
+                [[10.80544, 106.71161], [10.81099, 106.70576]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_1b1fc0f0c91085860b355a9f0ef5e2b9 = L.polyline(
+                [[10.80544, 106.71161], [10.79734, 106.70816]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f1f14b11c5eba5e2565c74407a09a402 = L.polyline(
+                [[10.81477, 106.71278], [10.81439, 106.71007]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_40fb2bec302ff0e03c6887f481e00802 = L.polyline(
+                [[10.8122, 106.70677], [10.80845, 106.70881]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f1178a3b26dd8f7b2b4e251ecce6acd7 = L.polyline(
+                [[10.8122, 106.70677], [10.80544, 106.71161]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_a8ede0aa7e655ad3ad384ddfc5d8415a = L.polyline(
+                [[10.8122, 106.70677], [10.81099, 106.70576]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_1b4576bc41a6003683c4233fd32ea106 = L.polyline(
+                [[10.81616, 106.70723], [10.8189, 106.70022]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_bb0ee320d47dcc26e77bf644bea7f118 = L.polyline(
+                [[10.81084, 106.7134], [10.81475, 106.72118]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_febb1710fedab8bb70af405f3aa758d2 = L.polyline(
+                [[10.80856, 106.71004], [10.80845, 106.70881]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c7e65ec282c2ca3c466195d7cf99f574 = L.polyline(
+                [[10.80856, 106.71004], [10.80544, 106.71161]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b03187dc281366fab41c26b6a4f7ef2d = L.polyline(
+                [[10.80856, 106.71004], [10.81527, 106.70788]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_e12932867ed051861d38c61b7be331c7 = L.polyline(
+                [[10.81286, 106.71562], [10.80547, 106.71607]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c9da0d3bf5e661f79a0e06dedf21130a = L.polyline(
+                [[10.80827, 106.71495], [10.80547, 106.71607]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_9dde3b46c50c36163ebc22f5a7d92ed1 = L.polyline(
+                [[10.81887, 106.69917], [10.81447, 106.69155]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_915ff1370c7be74c9bba57ac04fffac0 = L.polyline(
+                [[10.81762, 106.69795], [10.81447, 106.69155]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_246e448c1e8fc7e5f5319f9081663717 = L.polyline(
+                [[10.81762, 106.69795], [10.81176, 106.69183]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c9d4c776f1e45dd23dd6ffb37ac656ad = L.polyline(
+                [[10.81515, 106.70772], [10.80929, 106.71328]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_7af650744893534e800bc8921b3c8997 = L.polyline(
+                [[10.81515, 106.70772], [10.80845, 106.70881]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b93629528430b05b82ac3756a036efe0 = L.polyline(
+                [[10.81515, 106.70772], [10.80676, 106.70933]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b1940ff74c5af016ffbddcf8c92ff461 = L.polyline(
+                [[10.81515, 106.70772], [10.81477, 106.71278]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_8ce44ec2ce07e5e5543be00a42b742c2 = L.polyline(
+                [[10.81515, 106.70772], [10.8122, 106.70677]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_9912d37449278e1f7551b0f7c724cfec = L.polyline(
+                [[10.81515, 106.70772], [10.81616, 106.70723]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_677e45d1841a34ae707a611804e98b6b = L.polyline(
+                [[10.81515, 106.70772], [10.81084, 106.7134]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4135ac92d69f85aa7dd76b2d3b18fdb8 = L.polyline(
+                [[10.81515, 106.70772], [10.80856, 106.71004]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b6f8d8d2bc3fcd4146fa4ebef53d26d4 = L.polyline(
+                [[10.81515, 106.70772], [10.81286, 106.71562]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_75744b34b4167ddf05f7d14e2622b3d8 = L.polyline(
+                [[10.81515, 106.70772], [10.81099, 106.70576]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_11812889f9a6eed2eee625ce6576c49e = L.polyline(
+                [[10.81515, 106.70772], [10.81439, 106.71007]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4317cbb3217206f542c4e6939b91704f = L.polyline(
+                [[10.81515, 106.70772], [10.81603, 106.70695]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_71d53b147f99ee1a437460f75f419d8e = L.polyline(
+                [[10.81515, 106.70772], [10.8189, 106.70022]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_a3d13df070a7101b0fa36969fdb32394 = L.polyline(
+                [[10.81515, 106.70772], [10.8151, 106.71292]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_ab929ae3c302d4aa7c821bd2e20489ff = L.polyline(
+                [[10.81099, 106.70576], [10.8151, 106.69791]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f79b14dcd67e4a761907aaf87477b787 = L.polyline(
+                [[10.81099, 106.70576], [10.81136, 106.69994]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_5628a0aa1d2cfc0cef72a8b0d2bd1a04 = L.polyline(
+                [[10.81159, 106.69585], [10.80628, 106.69017]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_796cc666c390c03603c29b95d5e23f5d = L.polyline(
+                [[10.81439, 106.71007], [10.80845, 106.70881]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_27e4cf143c0a503a996b21318fec1575 = L.polyline(
+                [[10.81439, 106.71007], [10.80676, 106.70933]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_852b1e922b8bcfe54afdb2664f4bad80 = L.polyline(
+                [[10.81439, 106.71007], [10.8122, 106.70677]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_97103e65f20cdd43b6b61a9f68ffa2d4 = L.polyline(
+                [[10.81439, 106.71007], [10.81099, 106.70576]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_825ef8b0380f14e7a4a8257eecbfc3c0 = L.polyline(
+                [[10.81439, 106.71007], [10.81527, 106.70788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_796f7e82c885fc570c7ca0db890ad00a = L.polyline(
+                [[10.81251, 106.69534], [10.81447, 106.69155]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_7ca0bec2aec4811d332abfce571b1154 = L.polyline(
+                [[10.81251, 106.69534], [10.80956, 106.68933]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b49c8625966cce7a536562af44da0448 = L.polyline(
+                [[10.80561, 106.69643], [10.80817, 106.68834]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f06fa65d81f766ea8b05d7a1d6c71596 = L.polyline(
+                [[10.80635, 106.69729], [10.80956, 106.68933]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_e42457b4f727efd983843f5f4d0513bd = L.polyline(
+                [[10.81447, 106.69155], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4bd5becbf7a410ff2125bed84a82df6b = L.polyline(
+                [[10.80628, 106.69017], [10.80543, 106.68226]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_aab18546c26240986c2c5184e0ad9e70 = L.polyline(
+                [[10.80628, 106.69017], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_fcd118353b6351d805b77a93263f0508 = L.polyline(
+                [[10.8151, 106.69791], [10.81887, 106.69917]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_31ea537efa29b83d5d9ad59a6b4312bc = L.polyline(
+                [[10.8151, 106.69791], [10.81762, 106.69795]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_61766dd05bce3d77468d40930917456c = L.polyline(
+                [[10.8151, 106.69791], [10.81159, 106.69585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_12a0e0dcfd719fa2aa35b545daed5fd2 = L.polyline(
+                [[10.8151, 106.69791], [10.81122, 106.69085]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c37a3aa6d2d5c351a62a8e6ab34b4489 = L.polyline(
+                [[10.8151, 106.69791], [10.81327, 106.69514]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_546a03960ba50f5c212c47a595d514cf = L.polyline(
+                [[10.8151, 106.69791], [10.81893, 106.69003]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_a897d8cd4ee208e93e5bc03e9ea87e65 = L.polyline(
+                [[10.81155, 106.69089], [10.81176, 106.69183]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_8a7b898eded969e72e31214663dccd81 = L.polyline(
+                [[10.81155, 106.69089], [10.80589, 106.68571]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_042a0663b2e5bd791b8d74f325ce3b63 = L.polyline(
+                [[10.81122, 106.69085], [10.81262, 106.69023]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_27301bfa68646ab3d2b88b970b734c93 = L.polyline(
+                [[10.81327, 106.69514], [10.80628, 106.69017]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_d802b30e7fd46d0f6e66242443372608 = L.polyline(
+                [[10.81327, 106.69514], [10.81155, 106.69073]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_a8a8a4f536345b699232627b96b7a09e = L.polyline(
+                [[10.81327, 106.69514], [10.80956, 106.68933]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_777c04ca3515c24ae040361d164b88db = L.polyline(
+                [[10.80859, 106.69519], [10.81155, 106.69073]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_acca9ffdf0b95af88bff23582bf07a22 = L.polyline(
+                [[10.80859, 106.69519], [10.81176, 106.69183]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_3bea81856b48c74d81ada8793a71c2e9 = L.polyline(
+                [[10.81893, 106.69003], [10.81176, 106.69183]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_1dc7d7b8978355d070c8188dbb11ecdd = L.polyline(
+                [[10.81155, 106.69073], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_1a5dcc435754fd179ae9ec4e4bf38968 = L.polyline(
+                [[10.8034, 106.68954], [10.80378, 106.68806]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_73600e9da9ee89836c0011b9181cfefb = L.polyline(
+                [[10.81136, 106.69994], [10.80635, 106.69729]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_64704438ae7f71940a0120281fde6332 = L.polyline(
+                [[10.81136, 106.69994], [10.81155, 106.69089]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_94a6de2f9d43c51999d36d1d2aaf92f9 = L.polyline(
+                [[10.81083, 106.69191], [10.80378, 106.68806]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_ba879d2e312514eb0c5a9739622580a0 = L.polyline(
+                [[10.81262, 106.69023], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_62a7ef7a68842587df5425aedddb47ac = L.polyline(
+                [[10.81176, 106.69183], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_629f1ffb221d8b2e9744f85735d9ec65 = L.polyline(
+                [[10.80403, 106.68665], [10.8075, 106.67849]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_817d6f4b8e1f41ab9dc4f16af69aef33 = L.polyline(
+                [[10.80378, 106.68806], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_63ab0ad7452c05b09758c0a420417a00 = L.polyline(
+                [[10.80656, 106.6806], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_0f573977c29b3ddbfdfd07341ecdb980 = L.polyline(
+                [[10.80817, 106.68834], [10.80656, 106.6806]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_2f4868eb11c3d884ab0b650bed2026cf = L.polyline(
+                [[10.80817, 106.68834], [10.80543, 106.68226]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f73a7d2e281199f6efaefc7f5d47a615 = L.polyline(
+                [[10.80589, 106.68571], [10.80798, 106.67854]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_1896e0c2bcbee60c1d03faf91a72012d = L.polyline(
+                [[10.80589, 106.68571], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_e691151feec00242cc7ce68558ba5080 = L.polyline(
+                [[10.80956, 106.68933], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_65b2fed31b2f6b215fecbf1c7e8cb6bd = L.polyline(
+                [[10.81261, 106.68724], [10.80378, 106.68806]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_5075311c89b2e5dbcb04e3d8a161fba4 = L.polyline(
+                [[10.80543, 106.68226], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_56c74271a0895e2566a2f64c6e93e52b = L.polyline(
+                [[10.80033, 106.69945], [10.80644, 106.69728]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_40e9653b4c009b523092d1294bb47d45 = L.polyline(
+                [[10.80033, 106.69945], [10.80269, 106.69546]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_881d902bd378f747c49d9af313aa7cd5 = L.polyline(
+                [[10.81527, 106.70788], [10.81616, 106.70723]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4277b7b4c52c8007fed24c2da915b2f8 = L.polyline(
+                [[10.81527, 106.70788], [10.81603, 106.70695]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_52bef00d49cf337b1a617d8e3053eaff = L.polyline(
+                [[10.81527, 106.70788], [10.8189, 106.70022]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_3b9146333e5186e3074592924f7dcbd6 = L.polyline(
+                [[10.80798, 106.67854], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f72b7efd94da4a3fbb2175a4944ffc95 = L.polyline(
+                [[10.8075, 106.67849], [10.80859, 106.68561]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_abb9cc566bf837792fc213ee0e61a390 = L.polyline(
+                [[10.81809, 106.69174], [10.81262, 106.69023]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_ce790dc42942576ee214c4528cde56ff = L.polyline(
+                [[10.81809, 106.69174], [10.81261, 106.68724]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f14d25ebfb272c1ad1d904a753ee7e83 = L.polyline(
+                [[10.79014, 106.70965], [10.78989, 106.7024]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_183ee06e1091851ed570fcdb9483f531 = L.polyline(
+                [[10.79909, 106.71099], [10.79827, 106.70524]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_9acfb2cd4536ba009993b183f6992a74 = L.polyline(
+                [[10.79734, 106.70816], [10.79404, 106.70094]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4031392c6e87fdb2a581f7dc7326f7c2 = L.polyline(
+                [[10.79404, 106.70094], [10.79242, 106.69333]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b4bc11e9d4927ee22e7706d5993a400a = L.polyline(
+                [[10.78989, 106.7024], [10.79237, 106.69399]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c1a6284b347b0cdc71976f2e971cea1a = L.polyline(
+                [[10.80269, 106.69546], [10.8034, 106.68954]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_8841075ca94948573b229b06c5bb4f2f = L.polyline(
+                [[10.80269, 106.69546], [10.80403, 106.68665]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_3a87f1505d25ea070883fc5b834b733a = L.polyline(
+                [[10.80269, 106.69546], [10.80817, 106.68834]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_f68e3ac42dec2f62c0c59da703afda73 = L.polyline(
+                [[10.81603, 106.70695], [10.8189, 106.70022]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_86a58cd476d0586fbb0682441235c609 = L.polyline(
+                [[10.8189, 106.70022], [10.81887, 106.69917]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_ab7c973b24cbff9d5babf7dacaeb71ce = L.polyline(
+                [[10.8189, 106.70022], [10.81762, 106.69795]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_9706ed069cc72adaf8f6503fde4c9b82 = L.polyline(
+                [[10.8189, 106.70022], [10.81251, 106.69534]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_0b4f5b99cb8a9f8124690fae081a91b9 = L.polyline(
+                [[10.8189, 106.70022], [10.8151, 106.69791]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_6733751f67ba285f4d9b5ff73227713b = L.polyline(
+                [[10.8189, 106.70022], [10.81136, 106.69994]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_b96df35228c7bbf78be7d3c3d6e936e3 = L.polyline(
+                [[10.8189, 106.70022], [10.81809, 106.69174]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 9}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_c7e52f1013590fae6774ca8a5e36c64f = L.polyline(
+                [[10.79944, 106.719], [10.79014, 106.70965]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_fca49d0f65950e27daa01e565f6c726b = L.polyline(
+                [[10.80442, 106.72896], [10.80327, 106.72944]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_3f6215f452add905bc1031d0109675a4 = L.polyline(
+                [[10.80327, 106.72944], [10.79944, 106.719]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_466bdf27222a60951d319f3890f4bd3c = L.polyline(
+                [[10.81475, 106.72118], [10.80442, 106.72896]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_4fe8c4cab85ae18410af9c636c8e6b5a = L.polyline(
+                [[10.80148, 106.70911], [10.8037, 106.70028]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 12}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+    
+            var poly_line_9425a2a8bb2b5dbd93b9cf1d04bcaa31 = L.polyline(
+                [[10.8151, 106.71292], [10.81439, 106.71007]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eb06dd354ac652b4c8003232cae22418);
+        
+</script>
+</html>

@@ -1,0 +1,1927 @@
+[
+    {
+        "title": "1 Mart",
+        "id": "here:pds:place:704w3gv7-461b048475ab4fad8a3cc9aa2bc5f16c",
+        "resultType": "place",
+        "address": {
+            "label": "1 Mart, 55 Đường Trần Quang Khải, Phường Tân Định, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Tân Định",
+            "street": "Đường Trần Quang Khải",
+            "postalCode": "71008",
+            "houseNumber": "55"
+        },
+        "position": {
+            "lat": 10.79237,
+            "lng": 106.69399
+        },
+        "access": [
+            {
+                "lat": 10.79237,
+                "lng": 106.69399
+            }
+        ],
+        "distance": 545,
+        "categories": [
+            {
+                "id": "600-6000-0061",
+                "name": "Cửa hàng tiện lợi",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Cửa Hàng S & T Laminage",
+        "id": "here:pds:place:7041r4ve-4e47652bf4d909c355884d555fb99958",
+        "resultType": "place",
+        "address": {
+            "label": "Cửa Hàng S & T Laminage, 39 Đường Nguyên Hồng, Phường 1, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 1",
+            "street": "Đường Nguyên Hồng",
+            "postalCode": "71410",
+            "houseNumber": "39"
+        },
+        "position": {
+            "lat": 10.81809,
+            "lng": 106.69174
+        },
+        "access": [
+            {
+                "lat": 10.81812,
+                "lng": 106.69197
+            }
+        ],
+        "distance": 729,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            },
+            {
+                "id": "700-7200-0328",
+                "name": "Dịch vụ B2B",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "The Runway Beer Club",
+        "id": "here:pds:place:704w3gve-8e2f1647fda24590b1d0c443c1879b0c",
+        "resultType": "place",
+        "address": {
+            "label": "The Runway Beer Club, 60 Đường Trường Sơn, Phường 2, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 2",
+            "street": "Đường Trường Sơn",
+            "postalCode": "72108",
+            "houseNumber": "60"
+        },
+        "position": {
+            "lat": 10.81202,
+            "lng": 106.66511
+        },
+        "access": [
+            {
+                "lat": 10.81202,
+                "lng": 106.66513
+            }
+        ],
+        "distance": 629,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            },
+            {
+                "id": "200-2000-0000",
+                "name": "Giải trí về đêm",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Gỗ Mỹ Nghệ Cao Cấp Phước Lộc",
+        "id": "here:pds:place:704jx7ps-21254a2fdfef089c66ea7e22a75eb784",
+        "resultType": "place",
+        "address": {
+            "label": "Gỗ Mỹ Nghệ Cao Cấp Phước Lộc, 106 Đường Cộng Hòa, Phường 4, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 4",
+            "street": "Đường Cộng Hòa",
+            "postalCode": "72106",
+            "houseNumber": "106"
+        },
+        "position": {
+            "lat": 10.80111,
+            "lng": 106.65836
+        },
+        "access": [
+            {
+                "lat": 10.80104,
+                "lng": 106.65831
+            }
+        ],
+        "distance": 653,
+        "categories": [
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Bus Station",
+        "id": "here:pds:place:704w3gve-a0a3dcf5804436c11f91970ff343efe6",
+        "resultType": "place",
+        "address": {
+            "label": "Bus Station, 11 Đường Lê Quang Định, Phường 1, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 1",
+            "street": "Đường Lê Quang Định",
+            "postalCode": "71410",
+            "houseNumber": "11"
+        },
+        "position": {
+            "lat": 10.81893,
+            "lng": 106.69003
+        },
+        "access": [
+            {
+                "lat": 10.81894,
+                "lng": 106.69002
+            }
+        ],
+        "distance": 860,
+        "categories": [
+            {
+                "id": "400-4100-0036",
+                "name": "Trạm xe buýt",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "PGD Quận Gò Vấp&Quận Phú Nhuận",
+        "id": "here:pds:place:704w3gve-51171d5e73184f329bc7e9ece4226b97",
+        "resultType": "place",
+        "address": {
+            "label": "PGD Quận Gò Vấp&Quận Phú Nhuận, 278 Đường Nguyễn Văn Nghi, Phường 7, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 7",
+            "street": "Đường Nguyễn Văn Nghi",
+            "postalCode": "71407",
+            "houseNumber": "278"
+        },
+        "position": {
+            "lat": 10.8258,
+            "lng": 106.6844
+        },
+        "access": [
+            {
+                "lat": 10.82549,
+                "lng": 106.68448
+            }
+        ],
+        "distance": 538,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            },
+            {
+                "id": "700-7010-0108",
+                "name": "Máy rút tiền ATM",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Bách Hoá Đakao",
+        "id": "here:pds:place:704w3gv7-6a3ff2ddad814032aef3e80cf810a82b",
+        "resultType": "place",
+        "address": {
+            "label": "Bách Hoá Đakao, 23 Đường Nguyễn Huy Tự, Phường Đa Kao, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Đa Kao",
+            "street": "Đường Nguyễn Huy Tự",
+            "postalCode": "71007",
+            "houseNumber": "23"
+        },
+        "position": {
+            "lat": 10.79256,
+            "lng": 106.69661
+        },
+        "access": [
+            {
+                "lat": 10.79266,
+                "lng": 106.6966
+            }
+        ],
+        "distance": 669,
+        "categories": [
+            {
+                "id": "600-6300-0066",
+                "name": "Siêu thị",
+                "primary": true
+            },
+            {
+                "id": "600-6100-0062",
+                "name": "Trung tâm mua sắm hoặc trung tâm thương mại",
+                "primary": false
+            },
+            {
+                "id": "600-6900-0247",
+                "name": "Chợ",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Sinh Tố Nước Ép",
+        "id": "here:pds:place:704w3gve-e02d27534180df78b2d3e6f3e5707e64",
+        "resultType": "place",
+        "address": {
+            "label": "Sinh Tố Nước Ép, 173 Đường Phạm Văn Đồng, Phường 4, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 4",
+            "street": "Đường Phạm Văn Đồng",
+            "postalCode": "71408",
+            "houseNumber": "173"
+        },
+        "position": {
+            "lat": 10.81782,
+            "lng": 106.68555
+        },
+        "access": [
+            {
+                "lat": 10.81779,
+                "lng": 106.68556
+            }
+        ],
+        "distance": 519,
+        "categories": [
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Ngân Hàng Á Châu",
+        "id": "here:pds:place:704jx7ps-3c1ecbf68631036b85df66fcd04da291",
+        "resultType": "place",
+        "address": {
+            "label": "Ngân Hàng Á Châu, 76 Đường Út Tịch, Phường 4, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 4",
+            "street": "Đường Út Tịch",
+            "postalCode": "72106",
+            "houseNumber": "76"
+        },
+        "position": {
+            "lat": 10.79527,
+            "lng": 106.65886
+        },
+        "access": [
+            {
+                "lat": 10.79545,
+                "lng": 106.65887
+            }
+        ],
+        "distance": 558,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Cty TNHH MTV VH Đại Việt Á",
+        "id": "here:pds:place:7041r4ve-53d755defa9b084d34be948b6ee748d5",
+        "resultType": "place",
+        "address": {
+            "label": "Cty TNHH MTV VH Đại Việt Á, 167A Đường Thích Quảng Đức, Phường 5, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 5",
+            "street": "Đường Thích Quảng Đức",
+            "postalCode": "72215",
+            "houseNumber": "167A"
+        },
+        "position": {
+            "lat": 10.80656,
+            "lng": 106.6806
+        },
+        "access": [
+            {
+                "lat": 10.80663,
+                "lng": 106.68066
+            }
+        ],
+        "distance": 523,
+        "categories": [
+            {
+                "id": "700-7250-0136",
+                "name": "Doanh nghiệp",
+                "primary": true
+            },
+            {
+                "id": "600-6900-0096",
+                "name": "Cửa hàng chuyên dụng",
+                "primary": false
+            },
+            {
+                "id": "700-7400-0133",
+                "name": "Đại lý du lịch & Vé",
+                "primary": false
+            },
+            {
+                "id": "700-7400-0141",
+                "name": "Dịch vụ kinh doanh",
+                "primary": false
+            },
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Lounge Bar Eden",
+        "id": "here:pds:place:704jx7ps-a00edc4a06300d16a8d660b9a659d6c1",
+        "resultType": "place",
+        "address": {
+            "label": "Lounge Bar Eden, 50 Đường Mạc Đĩnh Chi, Phường Đa Kao, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Đa Kao",
+            "street": "Đường Mạc Đĩnh Chi",
+            "postalCode": "71007",
+            "houseNumber": "50"
+        },
+        "position": {
+            "lat": 10.78726,
+            "lng": 106.69691
+        },
+        "access": [
+            {
+                "lat": 10.78721,
+                "lng": 106.69687
+            }
+        ],
+        "distance": 527,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            },
+            {
+                "id": "100-1000-0009",
+                "name": "Quán ăn nhanh",
+                "primary": false
+            },
+            {
+                "id": "200-2000-0000",
+                "name": "Giải trí về đêm",
+                "primary": false
+            },
+            {
+                "id": "200-2000-0014",
+                "name": "Quán karaoke",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Playstation",
+        "id": "here:pds:place:704w3gv6-7c01174a95c30946da3dd99addb7012b",
+        "resultType": "place",
+        "address": {
+            "label": "Playstation, 7 Đường Cách Mạng Tháng Tám, Phường 4, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 4",
+            "street": "Đường Cách Mạng Tháng Tám",
+            "postalCode": "72106",
+            "houseNumber": "7"
+        },
+        "position": {
+            "lat": 10.79275,
+            "lng": 106.65877
+        },
+        "access": [
+            {
+                "lat": 10.79279,
+                "lng": 106.65872
+            }
+        ],
+        "distance": 1125,
+        "categories": [
+            {
+                "id": "400-4100-0036",
+                "name": "Trạm xe buýt",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Family Mart",
+        "id": "here:pds:place:704w3gvs-785db3ab1b0c1f612f1d8abad01dbcf5",
+        "resultType": "place",
+        "address": {
+            "label": "Family Mart, 204 Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 26",
+            "street": "Đường Nguyễn Xí",
+            "postalCode": "72310",
+            "houseNumber": "204"
+        },
+        "position": {
+            "lat": 10.81515,
+            "lng": 106.70772
+        },
+        "access": [
+            {
+                "lat": 10.81559,
+                "lng": 106.70745
+            }
+        ],
+        "distance": 676,
+        "categories": [
+            {
+                "id": "600-6000-0061",
+                "name": "Cửa hàng tiện lợi",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "VINCOM+-Sky Center",
+        "id": "here:pds:place:704w3gv7-6b243367383041f5925155a7e97042c7",
+        "resultType": "place",
+        "address": {
+            "label": "VINCOM+-Sky Center, 10 Đường Phổ Quang, Phường 2, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 2",
+            "street": "Đường Phổ Quang",
+            "postalCode": "72108",
+            "houseNumber": "10"
+        },
+        "position": {
+            "lat": 10.80592,
+            "lng": 106.66647
+        },
+        "access": [
+            {
+                "lat": 10.80591,
+                "lng": 106.66663
+            }
+        ],
+        "distance": 522,
+        "categories": [
+            {
+                "id": "600-6100-0062",
+                "name": "Trung tâm mua sắm hoặc trung tâm thương mại",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Nước Mía Giải Khát",
+        "id": "here:pds:place:704w3gve-52340263c6b9cee9faa70b8c9204568e",
+        "resultType": "place",
+        "address": {
+            "label": "Nước Mía Giải Khát, 207/96 Hẻm 207 Nguyễn Văn Đậu, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 11",
+            "street": "Hẻm 207 Nguyễn Văn Đậu",
+            "postalCode": "72313",
+            "houseNumber": "207/96"
+        },
+        "position": {
+            "lat": 10.81447,
+            "lng": 106.69155
+        },
+        "access": [
+            {
+                "lat": 10.81447,
+                "lng": 106.69148
+            }
+        ],
+        "distance": 575,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Cửa Hàng Duy Hùng Thực Phẩm Sạch",
+        "id": "here:pds:place:704w3gve-a746b8952914d50ab6404ea7f70d9c11",
+        "resultType": "place",
+        "address": {
+            "label": "Cửa Hàng Duy Hùng Thực Phẩm Sạch, 80 Đường Yên Thế, Phường 2, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 2",
+            "street": "Đường Yên Thế",
+            "postalCode": "72108",
+            "houseNumber": "80"
+        },
+        "position": {
+            "lat": 10.81197,
+            "lng": 106.6684
+        },
+        "access": [
+            {
+                "lat": 10.81197,
+                "lng": 106.66835
+            }
+        ],
+        "distance": 528,
+        "categories": [
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Techcombank-Techcombank Lê Quang Định",
+        "id": "here:pds:place:704w3gvs-8548164a9a4d69424147759a6c5d7d54",
+        "resultType": "place",
+        "address": {
+            "label": "Techcombank-Techcombank Lê Quang Định, 205A Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 26",
+            "street": "Đường Nguyễn Xí",
+            "postalCode": "72310",
+            "houseNumber": "205A"
+        },
+        "position": {
+            "lat": 10.81603,
+            "lng": 106.70695
+        },
+        "access": [
+            {
+                "lat": 10.81608,
+                "lng": 106.70701
+            }
+        ],
+        "distance": 676,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            },
+            {
+                "id": "700-7010-0108",
+                "name": "Máy rút tiền ATM",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Xe Chất Lượng Cao Thuận Thảo",
+        "id": "here:pds:place:7041r4ve-d51b8255961f0fdbde42f93e52af50a9",
+        "resultType": "place",
+        "address": {
+            "label": "Xe Chất Lượng Cao Thuận Thảo, 196 Quốc Lộ 13, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 26",
+            "street": "Quốc Lộ 13",
+            "postalCode": "72310",
+            "houseNumber": "196"
+        },
+        "position": {
+            "lat": 10.8151,
+            "lng": 106.71292
+        },
+        "access": [
+            {
+                "lat": 10.8151,
+                "lng": 106.71288
+            }
+        ],
+        "distance": 1428,
+        "categories": [
+            {
+                "id": "400-4100-0036",
+                "name": "Trạm xe buýt",
+                "primary": true
+            },
+            {
+                "id": "400-4100-0041",
+                "name": "Dịch vụ vận chuyển",
+                "primary": false
+            },
+            {
+                "id": "400-4100-0043",
+                "name": "Giao thông công cộng tại địa phương hoặc khu vực",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Cửa Hàng Quà Tặng Ai Cập",
+        "id": "here:pds:place:7041r4ve-5073d90f05ac08d2c3ff8511f95d7fef",
+        "resultType": "place",
+        "address": {
+            "label": "Cửa Hàng Quà Tặng Ai Cập, 130 Đường Trần Huy Liệu, Phường 15, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 15",
+            "street": "Đường Trần Huy Liệu",
+            "postalCode": "72209",
+            "houseNumber": "130"
+        },
+        "position": {
+            "lat": 10.7971,
+            "lng": 106.67774
+        },
+        "access": [
+            {
+                "lat": 10.79709,
+                "lng": 106.67769
+            }
+        ],
+        "distance": 615,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            },
+            {
+                "id": "600-6900-0096",
+                "name": "Cửa hàng chuyên dụng",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Hoàn Mỹ",
+        "id": "here:pds:place:7041r4ve-3d24ae993f7f00d5f502c655f773b612",
+        "resultType": "place",
+        "address": {
+            "label": "Hoàn Mỹ, 115 Đường Nguyễn Văn Nghi, Phường 4, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 4",
+            "street": "Đường Nguyễn Văn Nghi",
+            "postalCode": "71408",
+            "houseNumber": "115"
+        },
+        "position": {
+            "lat": 10.82475,
+            "lng": 106.68567
+        },
+        "access": [
+            {
+                "lat": 10.82483,
+                "lng": 106.68565
+            }
+        ],
+        "distance": 1036,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Trà Sữa Trân Châu Nhà Làm",
+        "id": "here:pds:place:704w3gve-5343dda0f415a1da62da7a9def96119e",
+        "resultType": "place",
+        "address": {
+            "label": "Trà Sữa Trân Châu Nhà Làm, 321 Đường Lê Quang Định, Phường 11, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 11",
+            "street": "Đường Lê Quang Định",
+            "postalCode": "72313",
+            "houseNumber": "321"
+        },
+        "position": {
+            "lat": 10.81151,
+            "lng": 106.69081
+        },
+        "access": [
+            {
+                "lat": 10.81153,
+                "lng": 106.69085
+            }
+        ],
+        "distance": 546,
+        "categories": [
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Tranh Đồng",
+        "id": "here:pds:place:7041r4ve-3447eb45fc3205eca5c95ed547b3336b",
+        "resultType": "place",
+        "address": {
+            "label": "Tranh Đồng, 202 Đường Điện Biên Phủ, Phường 17, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 17",
+            "street": "Đường Điện Biên Phủ",
+            "postalCode": "72321",
+            "houseNumber": "202"
+        },
+        "position": {
+            "lat": 10.79827,
+            "lng": 106.70524
+        },
+        "access": [
+            {
+                "lat": 10.79826,
+                "lng": 106.70525
+            }
+        ],
+        "distance": 704,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Huynh Đệ Anh Khoa",
+        "id": "here:pds:place:7041r4ve-e20837734c760d700003f6e0e65dc090",
+        "resultType": "place",
+        "address": {
+            "label": "Huynh Đệ Anh Khoa, 79 Đường Phạm Văn Hai, Phường 3, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 3",
+            "street": "Đường Phạm Văn Hai",
+            "postalCode": "72120",
+            "houseNumber": "79"
+        },
+        "position": {
+            "lat": 10.79478,
+            "lng": 106.66348
+        },
+        "access": [
+            {
+                "lat": 10.79478,
+                "lng": 106.66347
+            }
+        ],
+        "distance": 616,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "KHÁNH HÒA NEST",
+        "id": "here:pds:place:704w3gvq-ae47bd8e903e7cd79eff363c8da84572",
+        "resultType": "place",
+        "address": {
+            "label": "KHÁNH HÒA NEST, 48 Đường Hoa Sứ, Phường 7, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 7",
+            "street": "Đường Hoa Sứ",
+            "postalCode": "72212",
+            "houseNumber": "48"
+        },
+        "position": {
+            "lat": 10.79895,
+            "lng": 106.68905
+        },
+        "access": [
+            {
+                "lat": 10.79896,
+                "lng": 106.6889
+            }
+        ],
+        "distance": 540,
+        "categories": [
+            {
+                "id": "600-6000-0061",
+                "name": "Cửa hàng tiện lợi",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Mèo May Mắn Maneki Neko",
+        "id": "here:pds:place:704w3gvs-65fdfbffbaa1435b8d4479c7889915a1",
+        "resultType": "place",
+        "address": {
+            "label": "Mèo May Mắn Maneki Neko, 311 Phạm Văn Đồng, Phường 13, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 13",
+            "street": "Phạm Văn Đồng",
+            "postalCode": "72311",
+            "houseNumber": "311"
+        },
+        "position": {
+            "lat": 10.82227,
+            "lng": 106.70137
+        },
+        "access": [
+            {
+                "lat": 10.8223,
+                "lng": 106.70136
+            }
+        ],
+        "distance": 684,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            },
+            {
+                "id": "600-6600-0077",
+                "name": "Cửa hàng phần cứng hoặc trung tâm DIY",
+                "primary": false
+            },
+            {
+                "id": "600-6900-0000",
+                "name": "Hàng tiêu dùng",
+                "primary": false
+            },
+            {
+                "id": "700-7400-0149",
+                "name": "May mặc & Sửa đồ may mặc",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Cửa Hàng Thủ Công Mỹ Nghệ Hacota",
+        "id": "here:pds:place:704jx7ps-9a8795ef879e0405340e4eb9472d1d69",
+        "resultType": "place",
+        "address": {
+            "label": "Cửa Hàng Thủ Công Mỹ Nghệ Hacota, 8 Đường Nguyễn Bỉnh Khiêm, Phường Đa Kao, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Đa Kao",
+            "street": "Đường Nguyễn Bỉnh Khiêm",
+            "postalCode": "71007",
+            "houseNumber": "8"
+        },
+        "position": {
+            "lat": 10.78989,
+            "lng": 106.7024
+        },
+        "access": [
+            {
+                "lat": 10.78976,
+                "lng": 106.70228
+            }
+        ],
+        "distance": 740,
+        "categories": [
+            {
+                "id": "600-6900-0096",
+                "name": "Cửa hàng chuyên dụng",
+                "primary": true
+            },
+            {
+                "id": "600-6100-0062",
+                "name": "Trung tâm mua sắm hoặc trung tâm thương mại",
+                "primary": false
+            },
+            {
+                "id": "600-6900-0307",
+                "name": "Đồ thủ công mỹ nghệ",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Lovely Lace",
+        "id": "here:pds:place:7041r4ve-d10f4f92292302640039a43c11fc281d",
+        "resultType": "place",
+        "address": {
+            "label": "Lovely Lace, 90A Đường Nguyễn Văn Trỗi, Phường 10, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 10",
+            "street": "Đường Nguyễn Văn Trỗi",
+            "postalCode": "72218",
+            "houseNumber": "90A"
+        },
+        "position": {
+            "lat": 10.79649,
+            "lng": 106.67431
+        },
+        "access": [
+            {
+                "lat": 10.79636,
+                "lng": 106.67424
+            }
+        ],
+        "distance": 713,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Chuyển Phát Nhanh J&T Express",
+        "id": "here:pds:place:704w3gvk-d50dce1904ad2e34c3eb567b1609c397",
+        "resultType": "place",
+        "address": {
+            "label": "Chuyển Phát Nhanh J&T Express, 22 Đường Phan Bội Châu, Phường 14, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 14",
+            "street": "Đường Phan Bội Châu",
+            "postalCode": "72306",
+            "houseNumber": "22"
+        },
+        "position": {
+            "lat": 10.8037,
+            "lng": 106.70028
+        },
+        "access": [
+            {
+                "lat": 10.80369,
+                "lng": 106.70025
+            }
+        ],
+        "distance": 529,
+        "categories": [
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Công Ty CP DV Chuyển Phát Nhanh Phương Trang Futa",
+        "id": "here:pds:place:704w3gvs-713f981388904f8ba30a34b115d7671c",
+        "resultType": "place",
+        "address": {
+            "label": "Công Ty CP DV Chuyển Phát Nhanh Phương Trang Futa, 347 Đường Đinh Bộ Lĩnh, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 26",
+            "street": "Đường Đinh Bộ Lĩnh",
+            "postalCode": "72310",
+            "houseNumber": "347"
+        },
+        "position": {
+            "lat": 10.81439,
+            "lng": 106.71007
+        },
+        "access": [
+            {
+                "lat": 10.81438,
+                "lng": 106.71007
+            }
+        ],
+        "distance": 1047,
+        "categories": [
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": true
+            },
+            {
+                "id": "300-3000-0000",
+                "name": "Thắng cảnh hoặc điểm du lịch",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Cineland HD 14F Đặng Văn Ngữ, Phú Nhuận",
+        "id": "here:pds:place:704w3gv7-b607fc5b5fe74795bab04791990803d9",
+        "resultType": "place",
+        "address": {
+            "label": "Cineland HD 14F Đặng Văn Ngữ, Phú Nhuận, 14F Đường Đặng Văn Ngữ, Phường 10, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 10",
+            "street": "Đường Đặng Văn Ngữ",
+            "postalCode": "72218",
+            "houseNumber": "14F"
+        },
+        "position": {
+            "lat": 10.79669,
+            "lng": 106.66972
+        },
+        "access": [
+            {
+                "lat": 10.79669,
+                "lng": 106.66978
+            }
+        ],
+        "distance": 552,
+        "categories": [
+            {
+                "id": "200-2100-0019",
+                "name": "Rạp chiếu phim",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Cửa Hàng Tạp Hóa Tuyết Nguyên",
+        "id": "here:pds:place:704jx7ps-a593ba8fdcd30f6e80becf275b750eaa",
+        "resultType": "place",
+        "address": {
+            "label": "Cửa Hàng Tạp Hóa Tuyết Nguyên, 184 Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 26",
+            "street": "Đường Nguyễn Xí",
+            "postalCode": "72310",
+            "houseNumber": "184"
+        },
+        "position": {
+            "lat": 10.81527,
+            "lng": 106.70788
+        },
+        "access": [
+            {
+                "lat": 10.81522,
+                "lng": 106.70782
+            }
+        ],
+        "distance": 671,
+        "categories": [
+            {
+                "id": "600-6000-0061",
+                "name": "Cửa hàng tiện lợi",
+                "primary": true
+            },
+            {
+                "id": "600-6200-0063",
+                "name": "Cửa hàng bách hóa",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Lạc Hồng Yên Nệm Xe",
+        "id": "here:pds:place:704w3gve-10f4b7b3c7f54c1b99c2f9459b0e80ea",
+        "resultType": "place",
+        "address": {
+            "label": "Lạc Hồng Yên Nệm Xe, 3 Đường Lê Lai, Phường 4, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 4",
+            "street": "Đường Lê Lai",
+            "postalCode": "71408",
+            "houseNumber": "3"
+        },
+        "position": {
+            "lat": 10.81885,
+            "lng": 106.68256
+        },
+        "access": [
+            {
+                "lat": 10.81879,
+                "lng": 106.68253
+            }
+        ],
+        "distance": 517,
+        "categories": [
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": true
+            },
+            {
+                "id": "600-6900-0096",
+                "name": "Cửa hàng chuyên dụng",
+                "primary": false
+            },
+            {
+                "id": "700-7400-0133",
+                "name": "Đại lý du lịch & Vé",
+                "primary": false
+            },
+            {
+                "id": "800-8200-0295",
+                "name": "Đào tạo & Phát triển",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Bánh Mì Hà Nội Hoàng Long",
+        "id": "here:pds:place:704w3gv7-2e7bf4694e92e7f05749a49bc11b2c97",
+        "resultType": "place",
+        "address": {
+            "label": "Bánh Mì Hà Nội Hoàng Long, 60A Đường Phan Đăng Lưu, Phường 5, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 5",
+            "street": "Đường Phan Đăng Lưu",
+            "postalCode": "72215",
+            "houseNumber": "60A"
+        },
+        "position": {
+            "lat": 10.80403,
+            "lng": 106.68665
+        },
+        "access": [
+            {
+                "lat": 10.8039,
+                "lng": 106.68664
+            }
+        ],
+        "distance": 502,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            },
+            {
+                "id": "100-1000-0000",
+                "name": "Nhà hàng",
+                "primary": false
+            },
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": false
+            },
+            {
+                "id": "600-6300-0066",
+                "name": "Siêu thị",
+                "primary": false
+            },
+            {
+                "id": "600-6300-0244",
+                "name": "Hiệu bánh",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Đức Thành",
+        "id": "here:pds:place:7041r4ve-d54cb1ca94d305a4091bd8566c2ec305",
+        "resultType": "place",
+        "address": {
+            "label": "Đức Thành, 565 Đường Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 25",
+            "street": "Đường Điện Biên Phủ",
+            "postalCode": "72308",
+            "houseNumber": "565"
+        },
+        "position": {
+            "lat": 10.79944,
+            "lng": 106.719
+        },
+        "access": [
+            {
+                "lat": 10.79929,
+                "lng": 106.7189
+            }
+        ],
+        "distance": 1129,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "PGD Nguyễn Thái Sơn-NG.H Á Châu",
+        "id": "here:pds:place:704xjxn4-aef37e7e4a2c056e4261428b25546ca6",
+        "resultType": "place",
+        "address": {
+            "label": "PGD Nguyễn Thái Sơn-NG.H Á Châu, 10 Đường Nguyễn Thái Sơn, Phường 3, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 3",
+            "street": "Đường Nguyễn Thái Sơn",
+            "postalCode": "71409",
+            "houseNumber": "10"
+        },
+        "position": {
+            "lat": 10.81492,
+            "lng": 106.67929
+        },
+        "access": [
+            {
+                "lat": 10.8149,
+                "lng": 106.67932
+            }
+        ],
+        "distance": 548,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Vitamin Bar",
+        "id": "here:pds:place:704httek-7fcb5f48370e01b2a372bba01bb9c36b",
+        "resultType": "place",
+        "address": {
+            "label": "Vitamin Bar, 174 Đường Đặng Văn Ngữ, Phường 13, Quận Phú Nhuận, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Phú Nhuận",
+            "district": "Phường 13",
+            "street": "Đường Đặng Văn Ngữ",
+            "postalCode": "72220",
+            "houseNumber": "174"
+        },
+        "position": {
+            "lat": 10.79136,
+            "lng": 106.66705
+        },
+        "access": [
+            {
+                "lat": 10.79129,
+                "lng": 106.66715
+            }
+        ],
+        "distance": 586,
+        "categories": [
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": true
+            },
+            {
+                "id": "100-1000-0000",
+                "name": "Nhà hàng",
+                "primary": false
+            },
+            {
+                "id": "100-1000-0001",
+                "name": "Quán ăn bình dân",
+                "primary": false
+            },
+            {
+                "id": "200-2000-0000",
+                "name": "Giải trí về đêm",
+                "primary": false
+            },
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": false
+            },
+            {
+                "id": "200-2000-0368",
+                "name": "Quầy Cocktail",
+                "primary": false
+            },
+            {
+                "id": "600-6900-0096",
+                "name": "Cửa hàng chuyên dụng",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Vitamin Bar II",
+        "id": "here:pds:place:704jx7ps-30b223fc1c9f00443a793f9d7907fec7",
+        "resultType": "place",
+        "address": {
+            "label": "Vitamin Bar II, 71 Đường Hoàng Hoa Thám, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 6",
+            "street": "Đường Hoàng Hoa Thám",
+            "postalCode": "72315",
+            "houseNumber": "71"
+        },
+        "position": {
+            "lat": 10.80628,
+            "lng": 106.69017
+        },
+        "access": [
+            {
+                "lat": 10.80644,
+                "lng": 106.69021
+            }
+        ],
+        "distance": 808,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            },
+            {
+                "id": "100-1100-0000",
+                "name": "Cà Phê/Trà",
+                "primary": false
+            },
+            {
+                "id": "100-1100-0010",
+                "name": "Quán cà phê",
+                "primary": false
+            },
+            {
+                "id": "200-2000-0000",
+                "name": "Giải trí về đêm",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "The Brothers Warehouse",
+        "id": "here:pds:place:704w3gvs-bdf6ad3654f946ad80337332c6891e10",
+        "resultType": "place",
+        "address": {
+            "label": "The Brothers Warehouse, 719 Hẻm 721 Đường Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 25",
+            "street": "Hẻm 721 Đường Xô Viết Nghệ Tĩnh",
+            "postalCode": "72308",
+            "houseNumber": "719"
+        },
+        "position": {
+            "lat": 10.81286,
+            "lng": 106.71562
+        },
+        "access": [
+            {
+                "lat": 10.81277,
+                "lng": 106.71573
+            }
+        ],
+        "distance": 671,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Bưu Cục Bến Nghé 247EXPRESS",
+        "id": "here:pds:place:704w3gv7-5465efaf4f081ec0397cb84f32f6a79d",
+        "resultType": "place",
+        "address": {
+            "label": "Bưu Cục Bến Nghé 247EXPRESS, 104/3 Hẻm 104 Mai Thị Lựu, Phường Đa Kao, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Đa Kao",
+            "street": "Hẻm 104 Mai Thị Lựu",
+            "postalCode": "71007",
+            "houseNumber": "104/3"
+        },
+        "position": {
+            "lat": 10.79245,
+            "lng": 106.69809
+        },
+        "access": [
+            {
+                "lat": 10.79243,
+                "lng": 106.69811
+            }
+        ],
+        "distance": 585,
+        "categories": [
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Vib- Quang Trung",
+        "id": "here:pds:place:704xjxn4-6fcfa34bbd0f063c021684e4afeb1bc6",
+        "resultType": "place",
+        "address": {
+            "label": "Vib- Quang Trung, 37 Đường Quang Trung, Phường 10, Quận Gò Vấp, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Gò Vấp",
+            "district": "Phường 10",
+            "street": "Đường Quang Trung",
+            "postalCode": "71406",
+            "houseNumber": "37"
+        },
+        "position": {
+            "lat": 10.82708,
+            "lng": 106.67775
+        },
+        "access": [
+            {
+                "lat": 10.82718,
+                "lng": 106.67778
+            }
+        ],
+        "distance": 579,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            },
+            {
+                "id": "700-7010-0108",
+                "name": "Máy rút tiền ATM",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Ngân Hàng Xuất Nhập Khẩu Việt Nam",
+        "id": "here:pds:place:704jx7ps-2878b3ad949d05063e8502ee9f777c90",
+        "resultType": "place",
+        "address": {
+            "label": "Ngân Hàng Xuất Nhập Khẩu Việt Nam, 78 Đường Trần Quang Khải, Phường Tân Định, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Tân Định",
+            "street": "Đường Trần Quang Khải",
+            "postalCode": "71008",
+            "houseNumber": "78"
+        },
+        "position": {
+            "lat": 10.79242,
+            "lng": 106.69333
+        },
+        "access": [
+            {
+                "lat": 10.79226,
+                "lng": 106.69336
+            }
+        ],
+        "distance": 540,
+        "categories": [
+            {
+                "id": "700-7000-0107",
+                "name": "Ngân hàng",
+                "primary": true
+            },
+            {
+                "id": "700-7010-0108",
+                "name": "Máy rút tiền ATM",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Golden Brew SB",
+        "id": "here:pds:place:704ee186-fac566332bdd2d2fac92c904a38a3221",
+        "resultType": "place",
+        "address": {
+            "label": "Golden Brew SB, 58 Đường Trường Sơn, Phường 2, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 2",
+            "street": "Đường Trường Sơn",
+            "postalCode": "72108",
+            "houseNumber": "58"
+        },
+        "position": {
+            "lat": 10.81113,
+            "lng": 106.66503
+        },
+        "access": [
+            {
+                "lat": 10.81113,
+                "lng": 106.66506
+            }
+        ],
+        "distance": 583,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Điểm Dừng Xe Buýt",
+        "id": "here:pds:place:704w3gvk-73bfc3b45ad54154ceb3cd17f74cbc23",
+        "resultType": "place",
+        "address": {
+            "label": "Điểm Dừng Xe Buýt, 21 Đường Ngô Tất Tố, Phường 19, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 19",
+            "street": "Đường Ngô Tất Tố",
+            "postalCode": "72323",
+            "houseNumber": "21"
+        },
+        "position": {
+            "lat": 10.79269,
+            "lng": 106.7117
+        },
+        "access": [
+            {
+                "lat": 10.7927,
+                "lng": 106.7117
+            }
+        ],
+        "distance": 671,
+        "categories": [
+            {
+                "id": "400-4100-0036",
+                "name": "Trạm xe buýt",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Vincom Plaza",
+        "id": "here:pds:place:704w3gvs-b0fbea2e116745da94d02b75b334a168",
+        "resultType": "place",
+        "address": {
+            "label": "Vincom Plaza, 188 Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 26",
+            "street": "Đường Nguyễn Xí",
+            "postalCode": "72310",
+            "houseNumber": "188"
+        },
+        "position": {
+            "lat": 10.81616,
+            "lng": 106.70723
+        },
+        "access": [
+            {
+                "lat": 10.81613,
+                "lng": 106.70719
+            }
+        ],
+        "distance": 896,
+        "categories": [
+            {
+                "id": "600-6100-0062",
+                "name": "Trung tâm mua sắm hoặc trung tâm thương mại",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Sinh Tố Ghế Đẩu",
+        "id": "here:pds:place:704w3gv7-57822bd3aa966d2c8a245fbfc080ecc3",
+        "resultType": "place",
+        "address": {
+            "label": "Sinh Tố Ghế Đẩu, 4 Đường Hoàng Việt, Phường 4, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 4",
+            "street": "Đường Hoàng Việt",
+            "postalCode": "72106",
+            "houseNumber": "4"
+        },
+        "position": {
+            "lat": 10.79732,
+            "lng": 106.65909
+        },
+        "access": [
+            {
+                "lat": 10.79733,
+                "lng": 106.6591
+            }
+        ],
+        "distance": 562,
+        "categories": [
+            {
+                "id": "200-2000-0011",
+                "name": "Bar hoặc Quán rượu",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "Trà Bắc Thái Nguyên Mai",
+        "id": "here:pds:place:704w3gv6-b60dae1c09f10dbb49e6a5df828e7879",
+        "resultType": "place",
+        "address": {
+            "label": "Trà Bắc Thái Nguyên Mai, 134 Đường Hoàng Hoa Thám, Phường 13, Quận Tân Bình, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Tân Bình",
+            "district": "Phường 13",
+            "street": "Đường Hoàng Hoa Thám",
+            "postalCode": "72110",
+            "houseNumber": "134"
+        },
+        "position": {
+            "lat": 10.8011,
+            "lng": 106.64745
+        },
+        "access": [
+            {
+                "lat": 10.8011,
+                "lng": 106.6474
+            }
+        ],
+        "distance": 541,
+        "categories": [
+            {
+                "id": "600-6300-0064",
+                "name": "Đặc sản & Đồ uống",
+                "primary": true
+            },
+            {
+                "id": "600-6800-0093",
+                "name": "Cửa hàng chuyên một loại quần áo",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Bưu Điện Nơ Trang Long",
+        "id": "here:pds:place:704jx7ps-fed0a95bb90b00331adce0bb810f0e1f",
+        "resultType": "place",
+        "address": {
+            "label": "Bưu Điện Nơ Trang Long, 170G Đường Nơ Trang Long, Phường 12, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 12",
+            "street": "Đường Nơ Trang Long",
+            "postalCode": "72312",
+            "houseNumber": "170G"
+        },
+        "position": {
+            "lat": 10.81159,
+            "lng": 106.69585
+        },
+        "access": [
+            {
+                "lat": 10.81163,
+                "lng": 106.69579
+            }
+        ],
+        "distance": 581,
+        "categories": [
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": true
+            },
+            {
+                "id": "700-7010-0108",
+                "name": "Máy rút tiền ATM",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Chuyển Phát Nhanh J&T Express",
+        "id": "here:pds:place:704w3gv7-985759ef9cbc4b7aa311f3a320cdb997",
+        "resultType": "place",
+        "address": {
+            "label": "Chuyển Phát Nhanh J&T Express, 68 Đường Trần Quang Khải, Phường Tân Định, Quận 1, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận 1",
+            "district": "Phường Tân Định",
+            "street": "Đường Trần Quang Khải",
+            "postalCode": "71008",
+            "houseNumber": "68"
+        },
+        "position": {
+            "lat": 10.79241,
+            "lng": 106.69379
+        },
+        "access": [
+            {
+                "lat": 10.79235,
+                "lng": 106.69386
+            }
+        ],
+        "distance": 540,
+        "categories": [
+            {
+                "id": "700-7450-0114",
+                "name": "Bưu điện",
+                "primary": true
+            },
+            {
+                "id": "600-6900-0356",
+                "name": "Thợ kim hoàn",
+                "primary": false
+            }
+        ]
+    },
+    {
+        "title": "Satrafoods Nguyễn Văn Đậu",
+        "id": "here:pds:place:704w3gv7-b6281248aa3247c48b8d91166fc285f0",
+        "resultType": "place",
+        "address": {
+            "label": "Satrafoods Nguyễn Văn Đậu, 46B Đường Nguyễn Văn Đậu, Phường 6, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 6",
+            "street": "Đường Nguyễn Văn Đậu",
+            "postalCode": "72315",
+            "houseNumber": "46B"
+        },
+        "position": {
+            "lat": 10.80673,
+            "lng": 106.68726
+        },
+        "access": [
+            {
+                "lat": 10.80677,
+                "lng": 106.68719
+            }
+        ],
+        "distance": 506,
+        "categories": [
+            {
+                "id": "600-6000-0061",
+                "name": "Cửa hàng tiện lợi",
+                "primary": true
+            }
+        ]
+    },
+    {
+        "title": "B. Corner",
+        "id": "here:pds:place:704w3gvk-cd2566775fe948f8963f4a45dc1b0d3a",
+        "resultType": "place",
+        "address": {
+            "label": "B. Corner, 156 Đường Nguyễn Gia Trí, Phường 25, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam",
+            "countryCode": "VNM",
+            "countryName": "Việt Nam",
+            "county": "Hồ Chí Minh",
+            "city": "Quận Bình Thạnh",
+            "district": "Phường 25",
+            "street": "Đường Nguyễn Gia Trí",
+            "postalCode": "72308",
+            "houseNumber": "156"
+        },
+        "position": {
+            "lat": 10.80547,
+            "lng": 106.71607
+        },
+        "access": [
+            {
+                "lat": 10.80547,
+                "lng": 106.71597
+            }
+        ],
+        "distance": 770,
+        "categories": [
+            {
+                "id": "600-6900-0103",
+                "name": "Quà tặng, đồ cổ và tác phẩm nghệ thuật",
+                "primary": true
+            },
+            {
+                "id": "600-6900-0096",
+                "name": "Cửa hàng chuyên dụng",
+                "primary": false
+            }
+        ]
+    }
+]
